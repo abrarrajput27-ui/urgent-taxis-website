@@ -23,6 +23,24 @@ const CityTaxiPage = () => {
     );
   }
 
+  const getServiceLink = (serviceName) => {
+    const map = {
+      'Outstation One Way Taxi': '/service/outstation-one-way',
+      'Outstation Round Trip Taxi': '/service/outstation-round-trip',
+      'Airport Transfer': '/service/airport-transfer',
+      'Local Rental': '/service/local-rental',
+      'Corporate Taxi Service': '/service/corporate-taxi',
+      'Wedding Car Rental': '/service/wedding-car-rental',
+      'Tempo Traveller Rental': '/fleet/tempo-traveller',
+      'Tour Packages': '/service/tour-packages'
+    };
+    return map[serviceName] || `/service/${serviceName.toLowerCase().replace(/\s+/g, '-')}`;
+  };
+
+  const getRouteLink = (routeName) => {
+    return `/${routeName.toLowerCase().replace(/\s+/g, '-')}-taxi`;
+  };
+
   const schemas = [];
 
   if (city.faqs && city.faqs.length > 0) {
@@ -118,7 +136,12 @@ const CityTaxiPage = () => {
               {(city.services || city.mainServices)?.map((service, index) => (
                 <li key={index} className="flex items-center text-gray-700">
                   <span className="w-2 h-2 bg-[#00914d] rounded-full mr-3"></span>
-                  <span className="font-medium">{service}</span>
+                  <Link 
+                    to={getServiceLink(service)} 
+                    className="font-medium hover:text-[#00914d] hover:underline cursor-pointer transition-colors"
+                  >
+                    {service}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -131,7 +154,12 @@ const CityTaxiPage = () => {
               {city.popularRoutes?.map((route, index) => (
                 <li key={index} className="flex items-center text-gray-700">
                   <span className="w-2 h-2 bg-[#3b2b98] rounded-full mr-3"></span>
-                  <span className="font-medium">{route}</span>
+                  <Link 
+                    to={getRouteLink(route)} 
+                    className="font-medium hover:text-[#3b2b98] hover:underline cursor-pointer transition-colors"
+                  >
+                    {route}
+                  </Link>
                 </li>
               ))}
             </ul>

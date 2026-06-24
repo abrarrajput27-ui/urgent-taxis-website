@@ -1,0 +1,19 @@
+{
+  "name": "Urgent Taxis",
+  "short_name": "Urgent Taxis",
+  "icons": [
+    {
+      "src": "/logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "theme_color": "#3b2b98",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
