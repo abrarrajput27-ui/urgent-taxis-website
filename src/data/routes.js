@@ -819,7 +819,7 @@ export const routes = [
     "vehicle": "Sedan, Ertiga, Innova Crysta",
     "price": "5499",
     "originalPrice": "7499",
-    "image": "",
+    "image": "/images/routes/delhi-to-nainital-lake.webp",
     "imageVerified": false,
     "seo": {
       "title": "Gurugram to Nainital Taxi Fare | Book Cab at Lowest Price",
@@ -947,7 +947,7 @@ export const routes = [
     "vehicle": "Sedan, Ertiga, Innova Crysta",
     "price": "4499",
     "originalPrice": "5999",
-    "image": "",
+    "image": "/images/routes/delhi-to-rishikesh-ramjhula.webp",
     "imageVerified": false,
     "seo": {
       "title": "Faridabad to Rishikesh Taxi Fare | Book Cab at Lowest Price",
@@ -1075,7 +1075,7 @@ export const routes = [
     "vehicle": "Sedan, Ertiga, Innova Crysta",
     "price": "3999",
     "originalPrice": "5999",
-    "image": "",
+    "image": "/images/routes/delhi-to-ramnagar-corbett.webp",
     "imageVerified": false,
     "seo": {
       "title": "Delhi to Jim Corbett Taxi Fare | Book Cab at Lowest Price",
@@ -1203,7 +1203,7 @@ export const routes = [
     "vehicle": "Sedan, Ertiga, Innova Crysta",
     "price": "4499",
     "originalPrice": "6499",
-    "image": "",
+    "image": "/images/routes/delhi-to-dehradun-route.webp",
     "imageVerified": false,
     "seo": {
       "title": "Delhi to Mussoorie Taxi Fare | Book Cab at Lowest Price",
@@ -1336,7 +1336,7 @@ export const routes = [
     "vehicle": "Sedan, Ertiga, Innova Crysta",
     "price": "4999",
     "originalPrice": "6999",
-    "image": "",
+    "image": "/images/routes/route-shimla.webp",
     "imageVerified": false,
     "seo": {
       "title": "Delhi to Shimla Taxi Fare | Book Cab at Lowest Price",
@@ -1464,7 +1464,7 @@ export const routes = [
     "vehicle": "Sedan, Ertiga, Innova Crysta",
     "price": "7999",
     "originalPrice": "10999",
-    "image": "",
+    "image": "/images/routes/route-shimla.webp",
     "imageVerified": false,
     "seo": {
       "title": "Delhi to Manali Taxi Fare | Book Cab at Lowest Price",
@@ -1592,7 +1592,7 @@ export const routes = [
     "vehicle": "Sedan, Ertiga, Innova Crysta",
     "price": "9999",
     "originalPrice": "12999",
-    "image": "",
+    "image": "/images/routes/route-nainital.webp",
     "imageVerified": false,
     "seo": {
       "title": "Delhi to Ayodhya Taxi Fare | Book Cab at Lowest Price",
@@ -1720,7 +1720,7 @@ export const routes = [
     "vehicle": "Sedan, Ertiga, Innova Crysta",
     "price": "11999",
     "originalPrice": "14999",
-    "image": "",
+    "image": "/images/routes/route-nainital.webp",
     "imageVerified": false,
     "seo": {
       "title": "Delhi to Varanasi Taxi Fare | Book Cab at Lowest Price",
@@ -1848,7 +1848,7 @@ export const routes = [
     "vehicle": "Sedan, Ertiga, Innova Crysta",
     "price": "4499",
     "originalPrice": "6499",
-    "image": "",
+    "image": "/images/routes/delhi-to-haldwani-tikonia.webp",
     "imageVerified": false,
     "seo": {
       "title": "Gurugram to Haldwani Taxi Fare | Book Cab at Lowest Price",
@@ -2044,7 +2044,13 @@ export const routes = [
     "bookingProcess": "<p>Just WhatsApp your Noida Sector and Haldwani drop location. We provide an instant quote and immediate confirmation.</p>",
     "nearbyDestinations": "<ul><li><strong>Kathgodam:</strong> 6 km away, a major transit hub.</li><li><strong>Nainital:</strong> 40 km from Haldwani.</li><li><strong>Pantnagar:</strong> 25 km away, known for its university and airport.</li></ul>",
     "fareNotes": "<p>Toll taxes are extra. Since pickup is from Noida, UP state tax is usually not applicable if the cab is UP registered, but Uttarakhand tax will apply.</p>",
-    "safetyNotes": "<p>All vehicles are thoroughly sanitized. We guarantee completely transparent billing with no surprise charges at the end.</p>"
+    "safetyNotes": "<p>All vehicles are thoroughly sanitized. We guarantee completely transparent billing with no surprise charges at the end.</p>",
+    "route": "Noida to Haldwani",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": 3000,
+    "originalPrice": 5000,
+    "image": "/images/routes/delhi-to-haldwani-tikonia.webp"
   },
   {
     "id": 19,
@@ -2134,7 +2140,13 @@ export const routes = [
     "bookingProcess": "<p>Just send us a WhatsApp message with your Noida sector and travel date. We confirm your ride in minutes.</p>",
     "nearbyDestinations": "<ul><li><strong>Mukteshwar:</strong> A scenic Himalayan view destination.</li><li><strong>Bhimtal:</strong> A quieter lake alternative to Nainital.</li><li><strong>Sattal:</strong> Famous for its cluster of seven freshwater lakes.</li></ul>",
     "fareNotes": "<p>Fares cover the hill climb up to Nainital. Tolls and Nainital entry/parking fees are extra. Night driving past 8 PM is not recommended and may incur allowances.</p>",
-    "safetyNotes": "<p>Hill driving requires excellent brakes and tires, which we inspect rigorously before assigning a cab to Nainital.</p>"
+    "safetyNotes": "<p>Hill driving requires excellent brakes and tires, which we inspect rigorously before assigning a cab to Nainital.</p>",
+    "route": "Noida to Nainital",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": 3500,
+    "originalPrice": 5500,
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 20,
@@ -2226,7 +2238,13 @@ export const routes = [
     "bookingProcess": "<p>Skip complex app interfaces. Message us your Ghaziabad address on WhatsApp and get a confirmed cab assigned immediately.</p>",
     "nearbyDestinations": "<ul><li><strong>Bhimtal:</strong> 30 km from Haldwani, great for a day trip.</li><li><strong>Naukuchiatal:</strong> Known for its nine-cornered lake.</li><li><strong>Mukteshwar:</strong> For a serene Himalayan view.</li></ul>",
     "fareNotes": "<p>Being closer to the route, fares from Ghaziabad are often slightly more economical. Tolls and Uttarakhand state tax remain extra.</p>",
-    "safetyNotes": "<p>We mandate seatbelts and adhere strictly to highway speed limits. 24/7 support is available throughout your journey.</p>"
+    "safetyNotes": "<p>We mandate seatbelts and adhere strictly to highway speed limits. 24/7 support is available throughout your journey.</p>",
+    "route": "Ghaziabad to Haldwani",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": 2800,
+    "originalPrice": 4800,
+    "image": "/images/routes/delhi-to-haldwani-tikonia.webp"
   },
   {
     "id": 21,
@@ -2316,7 +2334,13 @@ export const routes = [
     "bookingProcess": "<p>Avoid complex apps. Message us your Ghaziabad location on WhatsApp and secure your booking instantly with no hidden costs.</p>",
     "nearbyDestinations": "<ul><li><strong>Pangot:</strong> 15 km from Nainital, a bird watcher's paradise.</li><li><strong>Kausani:</strong> A few hours away, famous for panoramic Himalayan views.</li><li><strong>Almora:</strong> A cultural hub of the Kumaon region.</li></ul>",
     "fareNotes": "<p>The base fare is highly competitive. Toll taxes and any applicable Nainital municipal entry fees are extra.</p>",
-    "safetyNotes": "<p>Our drivers prioritize safety over speed. We strictly follow the 'no overtaking' rules on the winding hill roads to Nainital.</p>"
+    "safetyNotes": "<p>Our drivers prioritize safety over speed. We strictly follow the 'no overtaking' rules on the winding hill roads to Nainital.</p>",
+    "route": "Ghaziabad to Nainital",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": 3300,
+    "originalPrice": 5300,
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 22,
@@ -2406,7 +2430,13 @@ export const routes = [
     "bookingProcess": "<p>Book in advance via WhatsApp. Share your terminal number and flight details, and your chauffeur will be ready when you land.</p>",
     "nearbyDestinations": "<ul><li><strong>Nainital:</strong> Head straight to the hills (approx 7.5 hours from Airport).</li><li><strong>Bhimtal:</strong> A peaceful lakeside retreat.</li><li><strong>Corbett:</strong> If diverting towards Ramnagar.</li></ul>",
     "fareNotes": "<p>Airport parking charges (if applicable) and MCD toll charges while exiting Delhi are extra. Standard toll taxes apply.</p>",
-    "safetyNotes": "<p>Perfect for night landings. Our drivers are well-rested and trained to handle night drives from the airport safely to Haldwani.</p>"
+    "safetyNotes": "<p>Perfect for night landings. Our drivers are well-rested and trained to handle night drives from the airport safely to Haldwani.</p>",
+    "route": "Delhi Airport to Haldwani",
+    "type": "Airport Transfer",
+    "vehicle": "Sedan",
+    "price": 3200,
+    "originalPrice": 5200,
+    "image": "/images/routes/delhi-to-haldwani-tikonia.webp"
   },
   {
     "id": 23,
@@ -2488,7 +2518,13 @@ export const routes = [
     "bookingProcess": "<p>Book your business or personal trip easily via WhatsApp. Share your date and time, and your cab is confirmed.</p>",
     "nearbyDestinations": "<ul><li><strong>Pantnagar:</strong> Just 15 km away, known for its University and Airport.</li><li><strong>Haldwani:</strong> 30 km away, the gateway to Kumaon.</li><li><strong>Jim Corbett:</strong> Accessible within a 2-hour drive.</li></ul>",
     "fareNotes": "<p>Our fares are for point-to-point drops. Standard toll taxes and Uttarakhand state entry tax are extra.</p>",
-    "safetyNotes": "<p>We ensure strict compliance with speed limits on the Delhi-Moradabad highway. Cabs are sanitized and GPS-enabled.</p>"
+    "safetyNotes": "<p>We ensure strict compliance with speed limits on the Delhi-Moradabad highway. Cabs are sanitized and GPS-enabled.</p>",
+    "route": "Delhi to Rudrapur",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-haldwani-tikonia.webp"
   },
   {
     "id": 24,
@@ -2570,7 +2606,13 @@ export const routes = [
     "bookingProcess": "<p>Send a quick WhatsApp message with your travel details to secure a confirmed cab without any hidden surprises.</p>",
     "nearbyDestinations": "<ul><li><strong>Kausani:</strong> Famous for 300 km wide panoramic views of the Himalayas.</li><li><strong>Jageshwar Dham:</strong> A cluster of ancient Shiva temples just 35 km away.</li><li><strong>Binsar:</strong> A wildlife sanctuary offering spectacular views.</li></ul>",
     "fareNotes": "<p>Hill driving incurs higher fuel consumption, which is reflected in our fair pricing. Tolls and state taxes are extra.</p>",
-    "safetyNotes": "<p>We strictly prohibit night driving in the hills for safety. Our drivers are trained to handle sharp curves and steep gradients.</p>"
+    "safetyNotes": "<p>We strictly prohibit night driving in the hills for safety. Our drivers are trained to handle sharp curves and steep gradients.</p>",
+    "route": "Delhi to Almora",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 25,
@@ -2652,7 +2694,13 @@ export const routes = [
     "bookingProcess": "<p>Book instantly via WhatsApp. No apps to download, no complex forms. Get a quote and confirm your ride in minutes.</p>",
     "nearbyDestinations": "<ul><li><strong>Chaubatia Gardens:</strong> Famous for apple orchards and Himalayan views.</li><li><strong>Golf Course:</strong> A beautiful high-altitude 9-hole golf course.</li><li><strong>Majhkhali:</strong> Known for its spectacular view of Mount Trishul.</li></ul>",
     "fareNotes": "<p>Our quoted fares cover the hill climb up to Ranikhet. Standard highway tolls and state taxes are extra.</p>",
-    "safetyNotes": "<p>Since Ranikhet is a cantonment area, roads are well maintained but strictly regulated. Our drivers adhere to all safety and speed regulations.</p>"
+    "safetyNotes": "<p>Since Ranikhet is a cantonment area, roads are well maintained but strictly regulated. Our drivers adhere to all safety and speed regulations.</p>",
+    "route": "Delhi to Ranikhet",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 26,
@@ -2734,7 +2782,13 @@ export const routes = [
     "bookingProcess": "<p>Message us your dates and group size on WhatsApp. We offer quick, transparent quotes for this long-distance route.</p>",
     "nearbyDestinations": "<ul><li><strong>Baijnath Temple:</strong> An ancient temple complex on the banks of the Gomti river.</li><li><strong>Someshwar:</strong> A beautiful valley town near Kausani.</li><li><strong>Almora:</strong> Usually crossed on the way to Kausani.</li></ul>",
     "fareNotes": "<p>Fares are calculated considering the extreme distance and steep hill terrain. Tolls and state taxes are extra.</p>",
-    "safetyNotes": "<p>Given the long driving hours, we mandate adequate rest breaks for the driver. Safety and comfort are our highest priorities.</p>"
+    "safetyNotes": "<p>Given the long driving hours, we mandate adequate rest breaks for the driver. Safety and comfort are our highest priorities.</p>",
+    "route": "Delhi to Kausani",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 27,
@@ -2816,7 +2870,13 @@ export const routes = [
     "bookingProcess": "<p>Skip the hassle of apps. Send a WhatsApp message with your travel date and get an instant, transparent quote.</p>",
     "nearbyDestinations": "<ul><li><strong>Nainital:</strong> Just 20 km away.</li><li><strong>Bhowali:</strong> A major fruit market town nearby.</li><li><strong>Ghorakhal:</strong> Famous for the Golu Devta temple.</li></ul>",
     "fareNotes": "<p>Our drop fare covers the journey to Bhowali/Kainchi area. Tolls, state taxes, and any specific parking fees are extra.</p>",
-    "safetyNotes": "<p>The route involves winding mountain roads from Kathgodam. Our drivers drive at safe speeds to prevent motion sickness.</p>"
+    "safetyNotes": "<p>The route involves winding mountain roads from Kathgodam. Our drivers drive at safe speeds to prevent motion sickness.</p>",
+    "route": "Delhi to Kainchi Dham",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 28,
@@ -2898,7 +2958,13 @@ export const routes = [
     "bookingProcess": "<p>Simply WhatsApp us your travel dates and group size. We will provide an instant, transparent quote with no hidden charges.</p>",
     "nearbyDestinations": "<ul><li><strong>Nainital:</strong> Just 22 km away for a bustling mall road experience.</li><li><strong>Sattal:</strong> 15 km away, a cluster of seven interconnected lakes.</li><li><strong>Naukuchiatal:</strong> 8 km away, famous for its nine-cornered lake.</li></ul>",
     "fareNotes": "<p>The quoted fare is for point-to-point drops. Standard highway tolls and Uttarakhand state tax are extra and paid as per actual receipts.</p>",
-    "safetyNotes": "<p>We strictly advise our drivers against overspeeding on the winding stretch from Kathgodam to Bhimtal. Cabs are routinely serviced for hill terrain.</p>"
+    "safetyNotes": "<p>We strictly advise our drivers against overspeeding on the winding stretch from Kathgodam to Bhimtal. Cabs are routinely serviced for hill terrain.</p>",
+    "route": "Delhi to Bhimtal",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 29,
@@ -2980,7 +3046,13 @@ export const routes = [
     "bookingProcess": "<p>Booking is effortless. Message us your travel requirements on WhatsApp and secure your cab instantly without any complex apps.</p>",
     "nearbyDestinations": "<ul><li><strong>Bhimtal:</strong> Just 15 km away.</li><li><strong>Naukuchiatal:</strong> A tranquil lake around 20 km away.</li><li><strong>Nainital:</strong> Approximately 25 km from Sattal.</li></ul>",
     "fareNotes": "<p>Fares cover the direct drop to Sattal. Toll taxes and state entry fees are extra. Some secluded resorts may require a short walk if roads end early.</p>",
-    "safetyNotes": "<p>We strictly enforce a no-alcohol and safe-driving policy. The hilly forest roads require high concentration, which our drivers are trained for.</p>"
+    "safetyNotes": "<p>We strictly enforce a no-alcohol and safe-driving policy. The hilly forest roads require high concentration, which our drivers are trained for.</p>",
+    "route": "Delhi to Sattal",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 30,
@@ -3062,7 +3134,13 @@ export const routes = [
     "bookingProcess": "<p>A simple WhatsApp message with your travel details is all it takes to book your cab with us. No hidden fees.</p>",
     "nearbyDestinations": "<ul><li><strong>Bhowali:</strong> A major fruit market town on the way.</li><li><strong>Ramgarh:</strong> Known as the fruit bowl of Kumaon, just 25 km away.</li><li><strong>Almora:</strong> A cultural town accessible via a scenic drive.</li></ul>",
     "fareNotes": "<p>Due to the high altitude and extra hill driving, fares are slightly higher. Tolls and state taxes remain extra.</p>",
-    "safetyNotes": "<p>Safety is paramount on the steep Bhowali-Mukteshwar road. We guarantee excellent tire tread and brake health on all assigned vehicles.</p>"
+    "safetyNotes": "<p>Safety is paramount on the steep Bhowali-Mukteshwar road. We guarantee excellent tire tread and brake health on all assigned vehicles.</p>",
+    "route": "Delhi to Mukteshwar",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 31,
@@ -3144,7 +3222,13 @@ export const routes = [
     "bookingProcess": "<p>Book your ride effortlessly via WhatsApp. Just share your pickup location and time, and get instant confirmation.</p>",
     "nearbyDestinations": "<ul><li><strong>Haldwani:</strong> Just 6 km away, a major commercial city.</li><li><strong>Nainital:</strong> 35 km uphill from Kathgodam.</li><li><strong>Bhimtal:</strong> 25 km away in the hills.</li></ul>",
     "fareNotes": "<p>Our fare covers the drop to Kathgodam. Standard toll taxes and Uttarakhand state entry tax are extra.</p>",
-    "safetyNotes": "<p>All vehicles are GPS tracked. We strictly adhere to speed limits on the highway to ensure a safe and comfortable journey.</p>"
+    "safetyNotes": "<p>All vehicles are GPS tracked. We strictly adhere to speed limits on the highway to ensure a safe and comfortable journey.</p>",
+    "route": "Delhi to Kathgodam",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-haldwani-tikonia.webp"
   },
   {
     "id": 32,
@@ -3226,7 +3310,13 @@ export const routes = [
     "bookingProcess": "<p>Send a WhatsApp message with your Noida sector and travel dates. We provide transparent quotes and instant booking confirmation.</p>",
     "nearbyDestinations": "<ul><li><strong>Har Ki Pauri:</strong> The most sacred ghat, located in the city center.</li><li><strong>Rishikesh:</strong> Just 25 km ahead of Haridwar.</li><li><strong>Rajaji National Park:</strong> Around 10 km away, great for safaris.</li></ul>",
     "fareNotes": "<p>The base fare covers the drop. Expressways tolls (Eastern Peripheral & Delhi-Meerut) and any state taxes are extra.</p>",
-    "safetyNotes": "<p>We prioritize safe driving on the fast expressways. All our vehicles are regularly inspected for highway readiness.</p>"
+    "safetyNotes": "<p>We prioritize safe driving on the fast expressways. All our vehicles are regularly inspected for highway readiness.</p>",
+    "route": "Noida to Haridwar",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-haridwar-ganga-aarti.webp"
   },
   {
     "id": 33,
@@ -3308,7 +3398,13 @@ export const routes = [
     "bookingProcess": "<p>Book effortlessly via WhatsApp. Just share your pickup location in Noida and get a confirmed cab instantly.</p>",
     "nearbyDestinations": "<ul><li><strong>Shivpuri:</strong> 16 km ahead, the main hub for river rafting.</li><li><strong>Haridwar:</strong> 25 km before Rishikesh.</li><li><strong>Neelkanth Mahadev Temple:</strong> A revered shrine 32 km from Rishikesh.</li></ul>",
     "fareNotes": "<p>Fare covers point-to-point drop. Toll taxes on the Eastern Peripheral and state entry taxes are extra.</p>",
-    "safetyNotes": "<p>Our drivers are verified and strictly follow speed limits on the expressways. Cabs are equipped with GPS tracking.</p>"
+    "safetyNotes": "<p>Our drivers are verified and strictly follow speed limits on the expressways. Cabs are equipped with GPS tracking.</p>",
+    "route": "Noida to Rishikesh",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-rishikesh-ramjhula.webp"
   },
   {
     "id": 34,
@@ -3390,7 +3486,13 @@ export const routes = [
     "bookingProcess": "<p>Send your Noida sector and travel dates on WhatsApp. We provide a swift, transparent quote and instant confirmation.</p>",
     "nearbyDestinations": "<ul><li><strong>Mussoorie:</strong> The Queen of Hills, just 35 km uphill from Dehradun.</li><li><strong>Robbers Cave:</strong> A popular natural attraction in the city.</li><li><strong>Sahastradhara:</strong> Famous for its waterfalls and sulfur springs.</li></ul>",
     "fareNotes": "<p>The base fare covers the drop to Dehradun city limits. Highway tolls and Uttarakhand state tax are extra.</p>",
-    "safetyNotes": "<p>We prioritize highway safety. Our drivers are trained to adhere to speed limits and ensure a smooth, comfortable ride.</p>"
+    "safetyNotes": "<p>We prioritize highway safety. Our drivers are trained to adhere to speed limits and ensure a smooth, comfortable ride.</p>",
+    "route": "Noida to Dehradun",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-dehradun-route.webp"
   },
   {
     "id": 35,
@@ -3472,7 +3574,13 @@ export const routes = [
     "bookingProcess": "<p>Just WhatsApp your Noida pickup sector and Jim Corbett resort details. We confirm your cab instantly with clear pricing.</p>",
     "nearbyDestinations": "<ul><li><strong>Ramnagar:</strong> The main town acting as the gateway to Jim Corbett.</li><li><strong>Garjiya Devi Temple:</strong> A beautiful temple located in the Kosi River.</li><li><strong>Nainital:</strong> About 2 hours drive from the Corbett area.</li></ul>",
     "fareNotes": "<p>Drop fare to Ramnagar/Corbett periphery is quoted. Tolls and state taxes are extra. Deep forest drops may incur extra charges.</p>",
-    "safetyNotes": "<p>Our drivers are instructed to drive carefully in the forest zones to protect wildlife and ensure your safety.</p>"
+    "safetyNotes": "<p>Our drivers are instructed to drive carefully in the forest zones to protect wildlife and ensure your safety.</p>",
+    "route": "Noida to Jim Corbett",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-ramnagar-corbett.webp"
   },
   {
     "id": 36,
@@ -3554,7 +3662,13 @@ export const routes = [
     "bookingProcess": "<p>Message us your Noida address on WhatsApp. We provide a quick quote and confirm your booking without any hidden charges.</p>",
     "nearbyDestinations": "<ul><li><strong>Jim Corbett National Park:</strong> Just outside Ramnagar.</li><li><strong>Corbett Waterfall:</strong> A scenic spot nearby.</li><li><strong>Kashipur:</strong> A major industrial town 25 km before Ramnagar.</li></ul>",
     "fareNotes": "<p>Fares cover the drop to Ramnagar city limits. Highway tolls and Uttarakhand state tax are extra.</p>",
-    "safetyNotes": "<p>We mandate seatbelts and strict adherence to highway speed limits. Cabs are monitored via GPS 24/7.</p>"
+    "safetyNotes": "<p>We mandate seatbelts and strict adherence to highway speed limits. Cabs are monitored via GPS 24/7.</p>",
+    "route": "Noida to Ramnagar",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-ramnagar-corbett.webp"
   },
   {
     "id": 37,
@@ -3636,7 +3750,13 @@ export const routes = [
     "bookingProcess": "<p>Book your ride effortlessly via WhatsApp. Just share your pickup sector and get an instant confirmation.</p>",
     "nearbyDestinations": "<ul><li><strong>Pantnagar:</strong> 15 km away, known for its University.</li><li><strong>Haldwani:</strong> 30 km away, the gateway to Kumaon.</li><li><strong>Kashipur:</strong> An industrial town about 50 km away.</li></ul>",
     "fareNotes": "<p>Our fare covers the point-to-point drop. Toll taxes and Uttarakhand state entry tax are extra.</p>",
-    "safetyNotes": "<p>Our drivers are trained for highway safety. We ensure all vehicles are thoroughly inspected before dispatch.</p>"
+    "safetyNotes": "<p>Our drivers are trained for highway safety. We ensure all vehicles are thoroughly inspected before dispatch.</p>",
+    "route": "Noida to Rudrapur",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-haldwani-tikonia.webp"
   },
   {
     "id": 38,
@@ -3718,7 +3838,13 @@ export const routes = [
     "bookingProcess": "<p>Message us your travel dates on WhatsApp. We provide a transparent quote and instant cab allocation.</p>",
     "nearbyDestinations": "<ul><li><strong>Bhowali:</strong> A major town just a few kilometers before the ashram.</li><li><strong>Nainital:</strong> About 20 km away from Kainchi Dham.</li><li><strong>Ghorakhal:</strong> Famous for the Golu Devta temple nearby.</li></ul>",
     "fareNotes": "<p>The fare covers the drop to the Kainchi Dham area. Tolls, state taxes, and any specific parking fees are extra.</p>",
-    "safetyNotes": "<p>The route involves winding mountain roads from Kathgodam. Our drivers drive carefully to prevent motion sickness and ensure safety.</p>"
+    "safetyNotes": "<p>The route involves winding mountain roads from Kathgodam. Our drivers drive carefully to prevent motion sickness and ensure safety.</p>",
+    "route": "Noida to Kainchi Dham",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 39,
@@ -3800,7 +3926,13 @@ export const routes = [
     "bookingProcess": "<p>Simply WhatsApp us your Noida sector and travel dates. We provide an instant, transparent quote.</p>",
     "nearbyDestinations": "<ul><li><strong>Nainital:</strong> Just 22 km away for a bustling mall road experience.</li><li><strong>Sattal:</strong> 15 km away, a cluster of seven interconnected lakes.</li><li><strong>Naukuchiatal:</strong> 8 km away, famous for its nine-cornered lake.</li></ul>",
     "fareNotes": "<p>The quoted fare is for a point-to-point drop. Standard highway tolls and Uttarakhand state tax are extra.</p>",
-    "safetyNotes": "<p>We advise our drivers against overspeeding on the winding stretch from Kathgodam to Bhimtal. Safety is our top priority.</p>"
+    "safetyNotes": "<p>We advise our drivers against overspeeding on the winding stretch from Kathgodam to Bhimtal. Safety is our top priority.</p>",
+    "route": "Noida to Bhimtal",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 40,
@@ -3882,7 +4014,13 @@ export const routes = [
     "bookingProcess": "<p>Booking is simple! Just WhatsApp us your pickup sector in Noida, and we will confirm your ride instantly with a transparent quote.</p>",
     "nearbyDestinations": "<ul><li><strong>Bhowali:</strong> A bustling fruit market town en route.</li><li><strong>Ramgarh:</strong> Known as the fruit bowl of Kumaon, just 25 km away.</li><li><strong>Nainital:</strong> Around 50 km from Mukteshwar.</li></ul>",
     "fareNotes": "<p>Fares are calculated based on the steep hill terrain. Tolls and Uttarakhand state entry tax are extra.</p>",
-    "safetyNotes": "<p>Our drivers are strictly trained for hill driving. We ensure regular brake and tire inspections for absolute safety.</p>"
+    "safetyNotes": "<p>Our drivers are strictly trained for hill driving. We ensure regular brake and tire inspections for absolute safety.</p>",
+    "route": "Noida to Mukteshwar",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 41,
@@ -3964,7 +4102,13 @@ export const routes = [
     "bookingProcess": "<p>Send a WhatsApp message with your travel dates. We provide quick quotes and confirm your cab without complex forms.</p>",
     "nearbyDestinations": "<ul><li><strong>Kempty Falls:</strong> 15 km from Mussoorie.</li><li><strong>Landour:</strong> A quiet cantonment area just above Mussoorie.</li><li><strong>Dehradun:</strong> The capital city located in the valley below.</li></ul>",
     "fareNotes": "<p>Fares include the hill climb cost. Highway tolls, Uttarakhand state tax, and Mussoorie municipal entry fees are extra.</p>",
-    "safetyNotes": "<p>We prioritize your safety over speed on the winding hill roads. Our vehicles are routinely checked for optimal performance.</p>"
+    "safetyNotes": "<p>We prioritize your safety over speed on the winding hill roads. Our vehicles are routinely checked for optimal performance.</p>",
+    "route": "Noida to Mussoorie",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-dehradun-route.webp"
   },
   {
     "id": 42,
@@ -4046,7 +4190,13 @@ export const routes = [
     "bookingProcess": "<p>Just WhatsApp your Ghaziabad location and time. We will instantly assign a cab with a completely transparent fare structure.</p>",
     "nearbyDestinations": "<ul><li><strong>Har Ki Pauri:</strong> The most revered ghat in the city.</li><li><strong>Rishikesh:</strong> Located just 25 km uphill.</li><li><strong>Rajaji National Park:</strong> Perfect for a quick wildlife detour.</li></ul>",
     "fareNotes": "<p>Fares cover the direct drop. Meerut Expressway tolls and any applicable municipal taxes in Haridwar are extra.</p>",
-    "safetyNotes": "<p>Our drivers are instructed to maintain safe speeds on the fast expressway and ensure all passengers wear seatbelts.</p>"
+    "safetyNotes": "<p>Our drivers are instructed to maintain safe speeds on the fast expressway and ensure all passengers wear seatbelts.</p>",
+    "route": "Ghaziabad to Haridwar",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-haridwar-ganga-aarti.webp"
   },
   {
     "id": 43,
@@ -4128,7 +4278,13 @@ export const routes = [
     "bookingProcess": "<p>Booking is effortless. Message us your pickup details on WhatsApp, and we confirm your ride instantly.</p>",
     "nearbyDestinations": "<ul><li><strong>Shivpuri:</strong> The main rafting hub, 16 km ahead of Rishikesh.</li><li><strong>Haridwar:</strong> 25 km before Rishikesh.</li><li><strong>Neelkanth Mahadev:</strong> A famous temple located 32 km uphill.</li></ul>",
     "fareNotes": "<p>Fares are point-to-point. Expressway tolls and state entry taxes are extra and payable per actuals.</p>",
-    "safetyNotes": "<p>Safety is our top priority. We ensure strict compliance with expressway speed limits and regular vehicle maintenance.</p>"
+    "safetyNotes": "<p>Safety is our top priority. We ensure strict compliance with expressway speed limits and regular vehicle maintenance.</p>",
+    "route": "Ghaziabad to Rishikesh",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-rishikesh-ramjhula.webp"
   },
   {
     "id": 44,
@@ -4210,7 +4366,13 @@ export const routes = [
     "bookingProcess": "<p>Skip the hassle of apps. Send a WhatsApp message with your Ghaziabad location, and get a confirmed cab instantly.</p>",
     "nearbyDestinations": "<ul><li><strong>Mussoorie:</strong> Just 35 km uphill from Dehradun.</li><li><strong>Robbers Cave:</strong> A popular natural attraction within the city.</li><li><strong>Sahastradhara:</strong> Known for its sulfur springs.</li></ul>",
     "fareNotes": "<p>The quoted fare is for dropping in Dehradun limits. Highway tolls and Uttarakhand state tax are extra.</p>",
-    "safetyNotes": "<p>We mandate seatbelts and adhere strictly to highway speed limits to ensure a safe and smooth ride.</p>"
+    "safetyNotes": "<p>We mandate seatbelts and adhere strictly to highway speed limits to ensure a safe and smooth ride.</p>",
+    "route": "Ghaziabad to Dehradun",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-dehradun-route.webp"
   },
   {
     "id": 45,
@@ -4292,7 +4454,13 @@ export const routes = [
     "bookingProcess": "<p>Booking is extremely fast. Connect with us on WhatsApp, share your resort details, and get a confirmed ride immediately.</p>",
     "nearbyDestinations": "<ul><li><strong>Ramnagar:</strong> The primary town acting as the gateway to the park.</li><li><strong>Garjiya Devi Temple:</strong> A serene temple situated on a large rock in the Kosi River.</li><li><strong>Nainital:</strong> Accessible within a 2-hour drive.</li></ul>",
     "fareNotes": "<p>Drop fare to Ramnagar/Corbett periphery is quoted. Tolls and state taxes are extra. Deep forest drops may incur extra charges.</p>",
-    "safetyNotes": "<p>Our drivers are instructed to drive cautiously in the final stretch to protect crossing wildlife.</p>"
+    "safetyNotes": "<p>Our drivers are instructed to drive cautiously in the final stretch to protect crossing wildlife.</p>",
+    "route": "Ghaziabad to Jim Corbett",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-ramnagar-corbett.webp"
   },
   {
     "id": 46,
@@ -4374,7 +4542,13 @@ export const routes = [
     "bookingProcess": "<p>Message us your Ghaziabad address on WhatsApp. We provide a quick quote and confirm your booking without any hidden charges.</p>",
     "nearbyDestinations": "<ul><li><strong>Jim Corbett National Park:</strong> Just outside Ramnagar city limits.</li><li><strong>Kashipur:</strong> A major industrial town 25 km before Ramnagar.</li><li><strong>Haldwani:</strong> Around 55 km away.</li></ul>",
     "fareNotes": "<p>Fares cover the point-to-point drop to Ramnagar. Highway tolls and Uttarakhand state tax are extra.</p>",
-    "safetyNotes": "<p>We mandate seatbelts and strict adherence to highway speed limits. Cabs are monitored via GPS 24/7.</p>"
+    "safetyNotes": "<p>We mandate seatbelts and strict adherence to highway speed limits. Cabs are monitored via GPS 24/7.</p>",
+    "route": "Ghaziabad to Ramnagar",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-ramnagar-corbett.webp"
   },
   {
     "id": 47,
@@ -4456,7 +4630,13 @@ export const routes = [
     "bookingProcess": "<p>Book your ride effortlessly via WhatsApp. Just share your pickup location and get an instant confirmation.</p>",
     "nearbyDestinations": "<ul><li><strong>Pantnagar:</strong> 15 km away, known for its University and Airport.</li><li><strong>Haldwani:</strong> 30 km away, the gateway to Kumaon hills.</li><li><strong>Kashipur:</strong> An industrial town about 50 km away.</li></ul>",
     "fareNotes": "<p>Our fare covers the drop to Rudrapur limits. Toll taxes and Uttarakhand state entry tax are extra.</p>",
-    "safetyNotes": "<p>Our drivers are trained for highway safety and strict speed limit adherence. Vehicles are sanitized and GPS-enabled.</p>"
+    "safetyNotes": "<p>Our drivers are trained for highway safety and strict speed limit adherence. Vehicles are sanitized and GPS-enabled.</p>",
+    "route": "Ghaziabad to Rudrapur",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-haldwani-tikonia.webp"
   },
   {
     "id": 48,
@@ -4538,7 +4718,13 @@ export const routes = [
     "bookingProcess": "<p>Message us your travel dates on WhatsApp. We provide a transparent quote and instant cab allocation without any hassle.</p>",
     "nearbyDestinations": "<ul><li><strong>Bhowali:</strong> A major town just a few kilometers before the ashram.</li><li><strong>Nainital:</strong> About 20 km away from Kainchi Dham.</li><li><strong>Ghorakhal:</strong> Famous for the Golu Devta temple nearby.</li></ul>",
     "fareNotes": "<p>The fare covers the drop to the Kainchi Dham area. Tolls, state taxes, and any specific parking fees are extra.</p>",
-    "safetyNotes": "<p>The route involves winding mountain roads from Kathgodam. Our drivers drive carefully to prevent motion sickness and ensure safety.</p>"
+    "safetyNotes": "<p>The route involves winding mountain roads from Kathgodam. Our drivers drive carefully to prevent motion sickness and ensure safety.</p>",
+    "route": "Ghaziabad to Kainchi Dham",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 49,
@@ -4620,7 +4806,13 @@ export const routes = [
     "bookingProcess": "<p>Simply WhatsApp us your Ghaziabad location and travel dates. We provide an instant, transparent quote.</p>",
     "nearbyDestinations": "<ul><li><strong>Nainital:</strong> Just 22 km away for a bustling mall road experience.</li><li><strong>Sattal:</strong> 15 km away, a cluster of seven interconnected lakes.</li><li><strong>Naukuchiatal:</strong> 8 km away, famous for its nine-cornered lake.</li></ul>",
     "fareNotes": "<p>The quoted fare is for a point-to-point drop. Standard highway tolls and Uttarakhand state tax are extra.</p>",
-    "safetyNotes": "<p>We advise our drivers against overspeeding on the winding stretch from Kathgodam to Bhimtal. Safety is our top priority.</p>"
+    "safetyNotes": "<p>We advise our drivers against overspeeding on the winding stretch from Kathgodam to Bhimtal. Safety is our top priority.</p>",
+    "route": "Ghaziabad to Bhimtal",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 50,
@@ -4702,7 +4894,13 @@ export const routes = [
     "bookingProcess": "<p>Booking is simple! Just WhatsApp us your pickup area in Ghaziabad, and we will confirm your ride instantly with a transparent quote.</p>",
     "nearbyDestinations": "<ul><li><strong>Bhowali:</strong> A bustling fruit market town en route.</li><li><strong>Ramgarh:</strong> Known as the fruit bowl of Kumaon, just 25 km away.</li><li><strong>Nainital:</strong> Around 50 km from Mukteshwar.</li></ul>",
     "fareNotes": "<p>Fares are calculated considering the extra steep hill terrain. Tolls and Uttarakhand state entry tax are extra.</p>",
-    "safetyNotes": "<p>Our drivers are rigorously trained for hill driving. We ensure regular brake and tire inspections for maximum safety.</p>"
+    "safetyNotes": "<p>Our drivers are rigorously trained for hill driving. We ensure regular brake and tire inspections for maximum safety.</p>",
+    "route": "Ghaziabad to Mukteshwar",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-nainital-lake.webp"
   },
   {
     "id": 51,
@@ -4784,6 +4982,12 @@ export const routes = [
     "bookingProcess": "<p>Send a WhatsApp message with your travel dates. We provide quick quotes and confirm your cab without complex forms.</p>",
     "nearbyDestinations": "<ul><li><strong>Kempty Falls:</strong> 15 km from Mussoorie.</li><li><strong>Landour:</strong> A quiet cantonment area just above Mussoorie.</li><li><strong>Dehradun:</strong> The capital city located in the valley below.</li></ul>",
     "fareNotes": "<p>Fares include the hill climb cost. Highway tolls, Uttarakhand state tax, and Mussoorie municipal entry fees are extra.</p>",
-    "safetyNotes": "<p>We prioritize your safety over speed on the winding hill roads. Our vehicles are routinely checked for optimal performance.</p>"
+    "safetyNotes": "<p>We prioritize your safety over speed on the winding hill roads. Our vehicles are routinely checked for optimal performance.</p>",
+    "route": "Ghaziabad to Mussoorie",
+    "type": "One Way",
+    "vehicle": "Sedan",
+    "price": "Call for latest fare",
+    "originalPrice": "Call for latest fare2000",
+    "image": "/images/routes/delhi-to-dehradun-route.webp"
   }
 ];

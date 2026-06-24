@@ -1,4 +1,4 @@
-import { routesData } from '../data/mockData';
+import { routes } from '../data/routes';
 import { Link } from 'react-router-dom';
 import { ArrowRight, MapPin } from 'lucide-react';
 
@@ -15,6 +15,8 @@ Please share the availability and exact quote.`;
 
     return `https://wa.me/918595066033?text=${encodeURIComponent(msg)}`;
   };
+
+  const displayRoutes = hideViewAll ? routes : routes.slice(0, 12);
 
   return (
     <section id="routes" className="pt-2 pb-8 bg-white">
@@ -34,7 +36,7 @@ Please share the availability and exact quote.`;
         <p className="text-[12px] text-slate-500 font-medium mb-6">Approx. distance shown from Delhi. Actual km may vary based on pickup location, drop location and selected route.</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {routesData.map((route) => (
+          {displayRoutes.map((route) => (
             <div key={route.id} className="bg-white rounded-[20px] border border-slate-100 shadow-[0_4px_20px_rgb(0,0,0,0.04)] overflow-hidden group hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-2 transition-all duration-300 flex flex-col h-full">
               <div className="h-48 overflow-hidden relative bg-slate-50 flex items-center justify-center shrink-0">
                 <div className="absolute inset-0 bg-blue-900/5 group-hover:bg-transparent transition-all duration-300 z-20 pointer-events-none"></div>

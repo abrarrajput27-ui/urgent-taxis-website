@@ -8,6 +8,7 @@ import RouteFaqs from '../components/route-blocks/RouteFaqs';
 import SEOHead from '../components/SEOHead';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { createBreadcrumbSchema } from '../utils/seoHelpers';
+import SEOQuickLinks from '../components/SEOQuickLinks';
 
 export default function FleetCategoryPage() {
   const { category } = useParams();
@@ -224,6 +225,7 @@ export default function FleetCategoryPage() {
         </div>
       </section>
 
+      <SEOQuickLinks />
       <Footer />
     </div>
   );

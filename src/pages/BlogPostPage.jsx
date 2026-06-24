@@ -6,6 +6,7 @@ import SEOHead from '../components/SEOHead';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { blogData } from '../data/blogData';
+import SEOQuickLinks from '../components/SEOQuickLinks';
 
 export default function BlogPostPage() {
   const { slug } = useParams();
@@ -107,6 +108,7 @@ export default function BlogPostPage() {
         )}
       </main>
       
+      {!loading && !error && post && <SEOQuickLinks />}
       <Footer />
     </div>
   );

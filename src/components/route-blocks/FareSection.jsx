@@ -17,17 +17,27 @@ export default function FareSection({ route }) {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div className="bg-white p-4 rounded-xl border border-blue-100 shadow-sm text-center">
               <span className="text-sm font-bold text-slate-500 uppercase block mb-1">Sedan</span>
-              <span className="text-2xl font-black text-[#00914d] block mb-1">{route.sedanFare || route.price ? `₹${route.sedanFare || route.price}` : 'Call for latest fare'}</span>
+              <span className="text-2xl font-black text-[#00914d] block mb-1">
+                {(route.sedanFare && route.sedanFare !== 'Call for latest fare') 
+                  ? `₹${route.sedanFare}` 
+                  : (route.price && route.price !== 'Call for latest fare') 
+                      ? `₹${route.price}` 
+                      : 'Call for latest fare'}
+              </span>
               <span className="text-xs text-slate-400">Swift Dzire, Etios or similar</span>
             </div>
             <div className="bg-white p-4 rounded-xl border border-blue-100 shadow-sm text-center">
               <span className="text-sm font-bold text-slate-500 uppercase block mb-1">Ertiga / MPV</span>
-              <span className="text-2xl font-black text-[#00914d] block mb-1">{route.ertigaFare ? `₹${route.ertigaFare}` : 'Call for latest fare'}</span>
+              <span className="text-2xl font-black text-[#00914d] block mb-1">
+                {route.ertigaFare && route.ertigaFare !== 'Call for latest fare' ? `₹${route.ertigaFare}` : 'Call for latest fare'}
+              </span>
               <span className="text-xs text-slate-400">Maruti Ertiga, Carens or similar</span>
             </div>
             <div className="bg-white p-4 rounded-xl border border-blue-100 shadow-sm text-center">
               <span className="text-sm font-bold text-slate-500 uppercase block mb-1">Innova Crysta</span>
-              <span className="text-2xl font-black text-[#00914d] block mb-1">{route.crystaFare ? `₹${route.crystaFare}` : 'Call for latest fare'}</span>
+              <span className="text-2xl font-black text-[#00914d] block mb-1">
+                {route.crystaFare && route.crystaFare !== 'Call for latest fare' ? `₹${route.crystaFare}` : 'Call for latest fare'}
+              </span>
               <span className="text-xs text-slate-400">Premium 6/7 Seater SUV</span>
             </div>
           </div>

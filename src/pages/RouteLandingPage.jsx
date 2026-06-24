@@ -53,9 +53,17 @@ export default function RouteLandingPage() {
     (r.routeSlug && r.routeSlug.toLowerCase() === cleanSlug)
   );
 
+  const [loadHeavy, setLoadHeavy] = useState(false);
+
   useEffect(() => {
     if (route) {
       window.scrollTo(0, 0);
+      // Reset loadHeavy on route change
+      setLoadHeavy(false);
+      
+      // Delay heavy rendering by 150ms to allow initial critical paint to finish instantly
+      const timer = setTimeout(() => setLoadHeavy(true), 150);
+      return () => clearTimeout(timer);
     }
   }, [slug, route]);
 
@@ -117,7 +125,7 @@ Please share the availability and exact quote.`;
       <Header />
       
       {/* Route Hero Section */}
-      <section className="relative pt-10 pb-16 lg:pt-16 lg:pb-24 overflow-hidden">
+      <section className="relative pt-28 pb-16 lg:pt-36 lg:pb-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           {route.imageVerified === false ? (
              <div className="w-full h-full bg-slate-800 flex items-center justify-center flex-col text-slate-400">
@@ -140,10 +148,10 @@ Please share the availability and exact quote.`;
             <div className="inline-block bg-blue-500/20 backdrop-blur-md border border-blue-400/30 text-blue-100 px-4 py-1.5 rounded-full text-sm font-bold tracking-wider mb-6">
               Trusted One Way & Round Trip Taxi Service
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-4 leading-tight tracking-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-4 leading-tight tracking-tight break-words hyphens-auto">
               {route.h1 || route.seo?.h1}
             </h1>
-            <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl leading-relaxed">
+            <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl leading-relaxed break-words">
               {route.seoSubtitle || route.seo?.subtitle}
             </p>
             
@@ -194,33 +202,43 @@ Please share the availability and exact quote.`;
               )}
 
               <RouteOverview route={route} />
-              <RouteWhyChooseUs route={route} />
-              <RouteMapIntelligence route={route} />
-              <LiveRouteInsight route={route} />
-              {route.travelAdvisory && <RouteTravelAdvisory data={route.travelAdvisory} />}
-              <RouteCabOptionsDetail route={route} />
-              <VehicleGuide />
-              <FareSection route={route} />
-              <RouteNotes route={route} />
-              <RouteBookingProcess route={route} />
-              <RoutePickupDropPoints route={route} />
-              <RouteInclusionsExclusions route={route} />
-              <AirportPickupGuide />
               
-              {/* Conditional Transit / Destination Guides */}
-              {route.transitGuide && <ArrivalTransitGuide data={route.transitGuide} />}
-              {route.harKiPauri && <HarKiPauriGuide data={route.harKiPauri} />}
-              
-              <RouteTravelTips route={route} />
-              <RouteNearbyDestinations route={route} />
-              
-              <HighwayFacilitiesGuide route={route} />
-              <WashroomGuide />
-              <TollsAndTaxes route={route} />
-              <FuelPlanning route={route} />
-              <TouristPlanning route={route} />
-              <CoveragePlanner route={route} />
-              <RouteFaqs route={route} />
+              {/* Defer Heavy SEO Components to prevent Main Thread blocking */}
+              {loadHeavy ? (
+                <>
+                  <RouteWhyChooseUs route={route} />
+                  <RouteMapIntelligence route={route} />
+                  <LiveRouteInsight route={route} />
+                  {route.travelAdvisory && <RouteTravelAdvisory data={route.travelAdvisory} />}
+                  <RouteCabOptionsDetail route={route} />
+                  <VehicleGuide />
+                  <FareSection route={route} />
+                  <RouteNotes route={route} />
+                  <RouteBookingProcess route={route} />
+                  <RoutePickupDropPoints route={route} />
+                  <RouteInclusionsExclusions route={route} />
+                  <AirportPickupGuide />
+                  
+                  {/* Conditional Transit / Destination Guides */}
+                  {route.transitGuide && <ArrivalTransitGuide data={route.transitGuide} />}
+                  {route.harKiPauri && <HarKiPauriGuide data={route.harKiPauri} />}
+                  
+                  <RouteTravelTips route={route} />
+                  <RouteNearbyDestinations route={route} />
+                  
+                  <HighwayFacilitiesGuide route={route} />
+                  <WashroomGuide />
+                  <TollsAndTaxes route={route} />
+                  <FuelPlanning route={route} />
+                  <TouristPlanning route={route} />
+                  <CoveragePlanner route={route} />
+                  <RouteFaqs route={route} />
+                </>
+              ) : (
+                <div className="h-[1000px] flex items-start justify-center pt-20">
+                  <div className="w-8 h-8 border-4 border-blue-500 border-t-transparent rounded-full animate-spin opacity-50"></div>
+                </div>
+              )}
             </div>
 
             {/* Right Column - Sidebar */}

@@ -4,6 +4,7 @@ import { cities } from '../data/cities';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEOHead from '../components/SEOHead';
+import RelatedCityNavigation from '../components/city-blocks/RelatedCityNavigation';
 
 const CityTaxiPage = () => {
   const { citySlug } = useParams();
@@ -59,7 +60,7 @@ const CityTaxiPage = () => {
       />
       <Header />
       {/* Hero Section */}
-      <section className="relative pt-10 pb-16 lg:pt-16 lg:pb-24 overflow-hidden">
+      <section className="relative pt-28 pb-16 lg:pt-36 lg:pb-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           {(city.heroImage || city.image) && (
             <img src={city.heroImage || city.image} alt={city.cityName} className="w-full h-full object-cover" />
@@ -69,10 +70,10 @@ const CityTaxiPage = () => {
         
         <div className="w-full px-4 sm:px-8 lg:px-12 mx-auto relative z-10 text-white text-center">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-4 leading-tight tracking-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-4 leading-tight tracking-tight break-words hyphens-auto">
               {city.h1}
             </h1>
-            <p className="text-lg md:text-xl text-blue-100 mb-10 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-blue-100 mb-10 max-w-2xl mx-auto leading-relaxed break-words">
               {city.seoSubtitle || city.subtitle}
             </p>
             
@@ -154,6 +155,8 @@ const CityTaxiPage = () => {
 
       </div>
     </div>
+    
+    <RelatedCityNavigation city={city} />
     <Footer />
     </>
   );

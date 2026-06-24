@@ -77,3 +77,5 @@ Do not change locked UI sections while working on SEO pages or data files.
 ## 🔒 LOCKED: Scroll Restoration
 - File: `src/components/ScrollToTop.jsx`
 - **100% PERMANENTLY LOCKED**: The logic that enforces scroll to top on every route change and page reload (`history.scrollRestoration = 'manual'` and `window.scrollTo(0, 0)`) must not be modified or removed. Every page must always load at the very top.
+## Future Lock Rule
+Future changes must not introduce clipped/cut text, hidden H1, horizontal overflow, or fixed-height hero content that breaks on mobile/desktop. Existing responsive spacing and typography must be preserved unless explicitly approved.

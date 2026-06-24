@@ -4,6 +4,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEOHead from '../components/SEOHead';
+import SEOQuickLinks from '../components/SEOQuickLinks';
 import { fleetData } from '../data/mockData';
 
 export default function FleetMasterPage() {
@@ -207,6 +208,7 @@ Please share the availability and exact quote.`;
         </div>
       </section>
 
+      <SEOQuickLinks />
       <Footer />
     </div>
   );

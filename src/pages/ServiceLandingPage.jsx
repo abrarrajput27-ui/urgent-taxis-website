@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { servicesData } from '../data/mockData';
+import { routes } from '../data/routes';
 import { Phone, CheckCircle2, Shield, Info, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -75,7 +76,7 @@ export default function ServiceLandingPage() {
       <Header />
 
       {/* 2. Service Hero */}
-      <div className="relative pt-10 pb-12 md:pt-16 md:pb-20 bg-white border-b border-slate-200 overflow-hidden">
+      <div className="relative pt-28 pb-12 md:pt-36 md:pb-20 bg-white border-b border-slate-200 overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-10">
            <img src={service.img} alt="Background" className="w-full h-full object-cover" />
         </div>
@@ -84,10 +85,10 @@ export default function ServiceLandingPage() {
             <span className="inline-block bg-green-100 text-green-700 font-bold px-3 py-1 rounded-full text-xs tracking-wider mb-4 uppercase">
               Premium Taxi Service
             </span>
-            <h1 className="text-4xl md:text-[54px] font-black text-[#3b2b98] leading-tight mb-6">
+            <h1 className="text-4xl md:text-[54px] font-black text-[#3b2b98] leading-tight mb-6 break-words hyphens-auto">
               {service.title}
             </h1>
-            <p className="text-lg md:text-xl text-slate-600 font-medium leading-relaxed max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-slate-600 font-medium leading-relaxed max-w-3xl mx-auto break-words">
               {service.desc}
             </p>
           </div>
@@ -217,7 +218,28 @@ export default function ServiceLandingPage() {
         </div>
       </div>
 
-      {/* 12. Footer */}
+      {/* 12. Popular Routes for this Service */}
+      <div className="py-12 bg-white border-t border-slate-100">
+        <div className="w-full px-4 sm:px-8 lg:px-12 mx-auto">
+          <h2 className="text-2xl font-black text-[#3b2b98] mb-6">Popular Taxi Routes</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            {routes.slice(0, 8).map((r, index) => (
+              <Link 
+                key={index}
+                to={`/${r.slug}`} 
+                className="group bg-slate-50 p-4 rounded-xl border border-slate-100 hover:border-blue-400 hover:shadow-md transition-all flex items-center justify-between"
+              >
+                <span className="font-bold text-slate-700 group-hover:text-blue-600 transition-colors text-sm">
+                  {r.route || r.seoTitle}
+                </span>
+                <ArrowRight size={16} className="text-slate-400 group-hover:text-blue-600 shrink-0" />
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* 13. Footer */}
       <Footer />
     </div>
   );

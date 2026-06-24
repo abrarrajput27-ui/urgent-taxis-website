@@ -20,7 +20,7 @@ export default function Hero() {
         
         {/* Left Column - Hero Text */}
         <div className="w-full md:w-[45%] text-left pt-2 md:pt-0 relative z-20 md:-translate-x-6">
-          <h1 className="text-[36px] md:text-5xl lg:text-[64px] font-black text-[#0b132b] leading-[1.1] mb-4 tracking-tight">
+          <h1 className="text-[36px] md:text-5xl lg:text-[64px] font-black text-[#0b132b] leading-[1.1] mb-4 tracking-tight break-words hyphens-auto">
             Book Trusted<br/>
             <span className="text-[#3b2b98]">Taxi</span> in Seconds
           </h1>
