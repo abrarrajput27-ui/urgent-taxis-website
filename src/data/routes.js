@@ -4990,4 +4990,2925 @@ export const routes = [
     "originalPrice": "Call for latest fare2000",
     "image": "/images/routes/delhi-to-dehradun-route.webp"
   }
+,
+  {
+    "id": 9000 + 0,
+    "fromCity": "Noida International Airport",
+    "toCity": "Delhi",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-delhi-taxi",
+    "seoTitle": "Noida International Airport to Delhi Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Delhi. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-delhi-taxi",
+    "from": "Noida International Airport",
+    "to": "Delhi",
+    "route": "Noida International Airport to Delhi",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Delhi Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Delhi. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Delhi Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Delhi taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Delhi? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Delhi?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Delhi?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Delhi?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Delhi without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Delhi Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Delhi taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Delhi has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Delhi"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Delhi?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Delhi?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Delhi?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Delhi without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 1,
+    "fromCity": "Noida International Airport",
+    "toCity": "Noida",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-noida-taxi",
+    "seoTitle": "Noida International Airport to Noida Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Noida. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-noida-taxi",
+    "from": "Noida International Airport",
+    "to": "Noida",
+    "route": "Noida International Airport to Noida",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Noida Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Noida. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Noida Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Noida taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Noida? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Noida?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Noida?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Noida?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Noida without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Noida Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Noida taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Noida has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Noida"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Noida?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Noida?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Noida?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Noida without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 2,
+    "fromCity": "Noida International Airport",
+    "toCity": "Greater Noida",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-greater-noida-taxi",
+    "seoTitle": "Noida International Airport to Greater Noida Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Greater Noida. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-greater-noida-taxi",
+    "from": "Noida International Airport",
+    "to": "Greater Noida",
+    "route": "Noida International Airport to Greater Noida",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Greater Noida Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Greater Noida. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Greater Noida Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Greater Noida taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Greater Noida? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Greater Noida?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Greater Noida?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Greater Noida?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Greater Noida without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Greater Noida Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Greater Noida taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Greater Noida has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Greater Noida"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Greater Noida?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Greater Noida?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Greater Noida?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Greater Noida without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 3,
+    "fromCity": "Noida International Airport",
+    "toCity": "Ghaziabad",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-ghaziabad-taxi",
+    "seoTitle": "Noida International Airport to Ghaziabad Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Ghaziabad. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-ghaziabad-taxi",
+    "from": "Noida International Airport",
+    "to": "Ghaziabad",
+    "route": "Noida International Airport to Ghaziabad",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Ghaziabad Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Ghaziabad. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Ghaziabad Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Ghaziabad taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Ghaziabad? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Ghaziabad?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Ghaziabad?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Ghaziabad?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Ghaziabad without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Ghaziabad Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Ghaziabad taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Ghaziabad has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Ghaziabad"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Ghaziabad?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Ghaziabad?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Ghaziabad?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Ghaziabad without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 4,
+    "fromCity": "Noida International Airport",
+    "toCity": "Gurugram",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-gurugram-taxi",
+    "seoTitle": "Noida International Airport to Gurugram Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Gurugram. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-gurugram-taxi",
+    "from": "Noida International Airport",
+    "to": "Gurugram",
+    "route": "Noida International Airport to Gurugram",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Gurugram Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Gurugram. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Gurugram Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Gurugram taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Gurugram? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Gurugram?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Gurugram?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Gurugram?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Gurugram without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Gurugram Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Gurugram taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Gurugram has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Gurugram"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Gurugram?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Gurugram?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Gurugram?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Gurugram without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 5,
+    "fromCity": "Noida International Airport",
+    "toCity": "Faridabad",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-faridabad-taxi",
+    "seoTitle": "Noida International Airport to Faridabad Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Faridabad. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-faridabad-taxi",
+    "from": "Noida International Airport",
+    "to": "Faridabad",
+    "route": "Noida International Airport to Faridabad",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Faridabad Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Faridabad. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Faridabad Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Faridabad taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Faridabad? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Faridabad?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Faridabad?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Faridabad?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Faridabad without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Faridabad Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Faridabad taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Faridabad has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Faridabad"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Faridabad?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Faridabad?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Faridabad?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Faridabad without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 6,
+    "fromCity": "Noida International Airport",
+    "toCity": "Haldwani",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-haldwani-taxi",
+    "seoTitle": "Noida International Airport to Haldwani Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Haldwani. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-haldwani-taxi",
+    "from": "Noida International Airport",
+    "to": "Haldwani",
+    "route": "Noida International Airport to Haldwani",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Haldwani Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Haldwani. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Haldwani Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Haldwani taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Haldwani? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Haldwani?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Haldwani?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Haldwani?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Haldwani without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Haldwani Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Haldwani taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Haldwani has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Haldwani"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Haldwani?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Haldwani?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Haldwani?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Haldwani without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 7,
+    "fromCity": "Noida International Airport",
+    "toCity": "Nainital",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-nainital-taxi",
+    "seoTitle": "Noida International Airport to Nainital Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Nainital. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-nainital-taxi",
+    "from": "Noida International Airport",
+    "to": "Nainital",
+    "route": "Noida International Airport to Nainital",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Nainital Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Nainital. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Nainital Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Nainital taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Nainital? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Nainital?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Nainital?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Nainital?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Nainital without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Nainital Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Nainital taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Nainital has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Nainital"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Nainital?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Nainital?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Nainital?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Nainital without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 8,
+    "fromCity": "Noida International Airport",
+    "toCity": "Haridwar",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-haridwar-taxi",
+    "seoTitle": "Noida International Airport to Haridwar Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Haridwar. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-haridwar-taxi",
+    "from": "Noida International Airport",
+    "to": "Haridwar",
+    "route": "Noida International Airport to Haridwar",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Haridwar Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Haridwar. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Haridwar Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Haridwar taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Haridwar? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Haridwar?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Haridwar?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Haridwar?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Haridwar without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Haridwar Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Haridwar taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Haridwar has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Haridwar"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Haridwar?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Haridwar?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Haridwar?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Haridwar without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 9,
+    "fromCity": "Noida International Airport",
+    "toCity": "Rishikesh",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-rishikesh-taxi",
+    "seoTitle": "Noida International Airport to Rishikesh Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Rishikesh. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-rishikesh-taxi",
+    "from": "Noida International Airport",
+    "to": "Rishikesh",
+    "route": "Noida International Airport to Rishikesh",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Rishikesh Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Rishikesh. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Rishikesh Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Rishikesh taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Rishikesh? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Rishikesh?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Rishikesh?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Rishikesh?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Rishikesh without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Rishikesh Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Rishikesh taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Rishikesh has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Rishikesh"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Rishikesh?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Rishikesh?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Rishikesh?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Rishikesh without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 10,
+    "fromCity": "Noida International Airport",
+    "toCity": "Dehradun",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-dehradun-taxi",
+    "seoTitle": "Noida International Airport to Dehradun Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Dehradun. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-dehradun-taxi",
+    "from": "Noida International Airport",
+    "to": "Dehradun",
+    "route": "Noida International Airport to Dehradun",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Dehradun Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Dehradun. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Dehradun Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Dehradun taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Dehradun? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Dehradun?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Dehradun?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Dehradun?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Dehradun without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Dehradun Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Dehradun taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Dehradun has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Dehradun"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Dehradun?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Dehradun?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Dehradun?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Dehradun without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 11,
+    "fromCity": "Noida International Airport",
+    "toCity": "Jim Corbett",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-jim-corbett-taxi",
+    "seoTitle": "Noida International Airport to Jim Corbett Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Jim Corbett. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-jim-corbett-taxi",
+    "from": "Noida International Airport",
+    "to": "Jim Corbett",
+    "route": "Noida International Airport to Jim Corbett",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Jim Corbett Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Jim Corbett. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Jim Corbett Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Jim Corbett taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Jim Corbett? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Jim Corbett?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Jim Corbett?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Jim Corbett?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Jim Corbett without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Jim Corbett Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Jim Corbett taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Jim Corbett has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Jim Corbett"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Jim Corbett?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Jim Corbett?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Jim Corbett?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Jim Corbett without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 12,
+    "fromCity": "Noida International Airport",
+    "toCity": "Ramnagar",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-ramnagar-taxi",
+    "seoTitle": "Noida International Airport to Ramnagar Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Ramnagar. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-ramnagar-taxi",
+    "from": "Noida International Airport",
+    "to": "Ramnagar",
+    "route": "Noida International Airport to Ramnagar",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Ramnagar Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Ramnagar. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Ramnagar Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Ramnagar taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Ramnagar? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Ramnagar?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Ramnagar?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Ramnagar?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Ramnagar without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Ramnagar Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Ramnagar taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Ramnagar has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Ramnagar"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Ramnagar?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Ramnagar?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Ramnagar?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Ramnagar without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 13,
+    "fromCity": "Noida International Airport",
+    "toCity": "Agra",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-agra-taxi",
+    "seoTitle": "Noida International Airport to Agra Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Agra. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-agra-taxi",
+    "from": "Noida International Airport",
+    "to": "Agra",
+    "route": "Noida International Airport to Agra",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Agra Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Agra. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Agra Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Agra taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Agra? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Agra?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Agra?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Agra?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Agra without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Agra Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Agra taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Agra has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Agra"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Agra?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Agra?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Agra?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Agra without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 14,
+    "fromCity": "Noida International Airport",
+    "toCity": "Mathura",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-mathura-taxi",
+    "seoTitle": "Noida International Airport to Mathura Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Mathura. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-mathura-taxi",
+    "from": "Noida International Airport",
+    "to": "Mathura",
+    "route": "Noida International Airport to Mathura",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Mathura Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Mathura. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Mathura Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Mathura taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Mathura? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Mathura?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Mathura?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Mathura?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Mathura without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Mathura Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Mathura taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Mathura has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Mathura"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Mathura?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Mathura?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Mathura?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Mathura without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 15,
+    "fromCity": "Noida International Airport",
+    "toCity": "Vrindavan",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-vrindavan-taxi",
+    "seoTitle": "Noida International Airport to Vrindavan Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Vrindavan. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-vrindavan-taxi",
+    "from": "Noida International Airport",
+    "to": "Vrindavan",
+    "route": "Noida International Airport to Vrindavan",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Vrindavan Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Vrindavan. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Vrindavan Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Vrindavan taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Vrindavan? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Vrindavan?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Vrindavan?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Vrindavan?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Vrindavan without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Vrindavan Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Vrindavan taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Vrindavan has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Vrindavan"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Vrindavan?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Vrindavan?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Vrindavan?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Vrindavan without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 16,
+    "fromCity": "Noida International Airport",
+    "toCity": "Jaipur",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-jaipur-taxi",
+    "seoTitle": "Noida International Airport to Jaipur Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Jaipur. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-jaipur-taxi",
+    "from": "Noida International Airport",
+    "to": "Jaipur",
+    "route": "Noida International Airport to Jaipur",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Jaipur Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Jaipur. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Jaipur Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Jaipur taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Jaipur? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Jaipur?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Jaipur?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Jaipur?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Jaipur without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Jaipur Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Jaipur taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Jaipur has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Jaipur"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Jaipur?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Jaipur?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Jaipur?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Jaipur without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 17,
+    "fromCity": "Noida International Airport",
+    "toCity": "Lucknow",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-lucknow-taxi",
+    "seoTitle": "Noida International Airport to Lucknow Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Lucknow. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-lucknow-taxi",
+    "from": "Noida International Airport",
+    "to": "Lucknow",
+    "route": "Noida International Airport to Lucknow",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Lucknow Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Lucknow. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Lucknow Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Lucknow taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Lucknow? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Lucknow?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Lucknow?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Lucknow?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Lucknow without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Lucknow Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Lucknow taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Lucknow has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Lucknow"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Lucknow?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Lucknow?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Lucknow?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Lucknow without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 18,
+    "fromCity": "Noida International Airport",
+    "toCity": "Ayodhya",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-ayodhya-taxi",
+    "seoTitle": "Noida International Airport to Ayodhya Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Ayodhya. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-ayodhya-taxi",
+    "from": "Noida International Airport",
+    "to": "Ayodhya",
+    "route": "Noida International Airport to Ayodhya",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Ayodhya Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Ayodhya. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Ayodhya Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Ayodhya taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Ayodhya? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Ayodhya?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Ayodhya?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Ayodhya?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Ayodhya without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Ayodhya Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Ayodhya taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Ayodhya has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Ayodhya"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Ayodhya?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Ayodhya?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Ayodhya?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Ayodhya without return fare obligations."
+        }
+    ]
+  },
+  {
+    "id": 9000 + 19,
+    "fromCity": "Noida International Airport",
+    "toCity": "Chandigarh",
+    "fromAliases": ["jewar airport", "noida airport", "noida international airport jewar", "jewar international airport"],
+    "distanceKm": "On Request",
+    "duration": "On Request",
+    "sedanFare": "On Request",
+    "ertigaFare": "On Request",
+    "crystaFare": "On Request",
+    "routeSlug": "noida-international-airport-to-chandigarh-taxi",
+    "seoTitle": "Noida International Airport to Chandigarh Taxi | Jewar Airport Cab",
+    "seoDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Chandigarh. Transparent fare, experienced drivers, and timely airport pickups.",
+    "slug": "noida-international-airport-to-chandigarh-taxi",
+    "from": "Noida International Airport",
+    "to": "Chandigarh",
+    "route": "Noida International Airport to Chandigarh",
+    "type": "One Way",
+    "distance": "On Request",
+    "travelTime": "On Request",
+    "vehicle": "Sedan, Ertiga, Innova Crysta",
+    "price": "On Request",
+    "originalPrice": "On Request",
+    "image": "/images/routes/jewar-airport.webp",
+    "imageVerified": true,
+    "seo": {
+      "title": "Noida International Airport to Chandigarh Taxi | Jewar Airport Cab",
+      "metaDescription": "Book a reliable taxi from Noida International Airport (Jewar) to Chandigarh. Transparent fare, experienced drivers, and timely airport pickups.",
+      "h1": "Noida International Airport to Chandigarh Taxi",
+      "subtitle": "Book reliable Noida International Airport (Jewar) to Chandigarh taxi with timely pickups and clean cabs."
+    },
+    "content": {
+      "about": "Are you landing at the upcoming Noida International Airport (Jewar) and planning your onward journey to Chandigarh? Booking a reliable taxi service directly from the airport terminal is the most convenient way to travel. Urgent Taxis offers premium, fully sanitized outstation and local cabs to ensure a smooth, hassle-free ride after your flight. We monitor flight timings to provide timely pickups and our chauffeurs assist with your luggage. Whether you need a comfortable Sedan for business travel, a spacious Ertiga for family, or an Innova Crysta for premium comfort, we have you covered. Enjoy a transparent fare structure with absolutely no hidden charges.",
+      "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Chandigarh?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Chandigarh?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Chandigarh?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Chandigarh without return fare obligations."
+        }
+      ]
+    },
+    "availableServices": [
+      "Airport Transfer",
+      "One Way Taxi",
+      "Round Trip Taxi",
+      "Local Rental"
+    ],
+    "importantNotes": [
+      "Fare may change based on pickup timing and vehicle availability.",
+      "Airport parking and toll taxes are charged as per actuals.",
+      "Final fare is confirmed by the Urgent Taxis team before booking."
+    ],
+    "serviceType": "Airport Transfer",
+    "h1": "Noida International Airport to Chandigarh Taxi",
+    "seoSubtitle": "Book reliable Noida International Airport (Jewar) to Chandigarh taxi with timely pickups and clean cabs.",
+    "heroImage": "/images/routes/jewar-airport.webp",
+    "routeHighlights": "Booking a reliable taxi from Noida International Airport (Jewar) to Chandigarh has never been easier. Avoid the stress of finding transport after a long flight. Our professional drivers will be waiting for you at the arrivals terminal to assist with your luggage and provide a safe, smooth journey to your destination. We offer specialized one-way drops, family travel MPVs, and luxury business cabs with a strict transparent pricing policy.",
+    "pickupPoints": [
+      "Noida International Airport (Jewar)",
+      "Arrivals Terminal"
+    ],
+    "dropPoints": [
+      "Any location in Chandigarh"
+    ],
+    "vehicleOptions": [
+      "Sedan",
+      "SUV",
+      "Innova Crysta"
+    ],
+    "inclusions": [
+      "Driver Allowance"
+    ],
+    "exclusions": [
+      "Airport Parking",
+      "Toll Tax",
+      "State Tax"
+    ],
+    "whyChooseUs": "<p>We offer punctual airport pickups, verified chauffeurs, and clean sanitized cars. Our transparent pricing means no surprise costs at the end of your trip.</p>",
+    "travelTips": "<ul><li>Share your flight PNR with us so we can track delays.</li><li>Keep your phone charged upon arrival for easy driver coordination.</li></ul>",
+    "bestTime": "<p>Available 24/7 for all arriving and departing flights.</p>",
+    "bookingProcess": "<p>Contact us via WhatsApp with your flight details. We will share the driver details well before your landing time.</p>",
+    "nearbyDestinations": "<ul><li><strong>Greater Noida:</strong> Easily accessible via the Yamuna Expressway.</li><li><strong>Delhi NCR:</strong> Seamless connections to the capital.</li></ul>",
+    "fareNotes": "<p>The listed fares are On Request. Airport parking charges and toll taxes (if applicable) are extra and paid as per actuals.</p>",
+    "safetyNotes": "<p>All vehicles are GPS-enabled and driven by licensed professionals. We mandate seatbelts and ensure the car is sanitized before airport pickup.</p>",
+    "faqs": [
+        {
+          "question": "What is the taxi fare from Noida International Airport to Chandigarh?",
+          "answer": "The fare for a Sedan, Ertiga, or Innova Crysta is currently On Request. Please contact our 24/7 support for the latest accurate fare."
+        },
+        {
+          "question": "How do I book a cab from Jewar Airport to Chandigarh?",
+          "answer": "You can easily book by contacting our 24/7 customer support via WhatsApp or direct call with your flight details."
+        },
+        {
+          "question": "Will the driver wait if my flight is delayed?",
+          "answer": "Yes, we monitor flight statuses to ensure your driver is waiting for you exactly when you land at Noida International Airport."
+        },
+        {
+          "question": "Are there any hidden charges?",
+          "answer": "No, Urgent Taxis operates on a 100% transparent pricing policy. Any tolls or parking will be clearly communicated."
+        },
+        {
+          "question": "Which vehicles are available from Jewar Airport?",
+          "answer": "We offer premium Sedans, Maruti Suzuki Ertigas, and Toyota Innova Crystas."
+        },
+        {
+          "question": "Do you provide late-night airport pickups?",
+          "answer": "Yes, our airport taxi service operates 24/7 to accommodate flights landing at any hour."
+        },
+        {
+          "question": "Is luggage assistance provided?",
+          "answer": "Absolutely. Our professional chauffeurs will assist you with loading and unloading your luggage at the airport terminal."
+        },
+        {
+          "question": "Can I book a one-way drop from Noida Airport to Chandigarh?",
+          "answer": "Yes, we specialize in one-way taxi services, meaning you only pay for the drop to Chandigarh without return fare obligations."
+        }
+    ]
+  }
 ];

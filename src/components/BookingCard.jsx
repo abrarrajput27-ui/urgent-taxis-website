@@ -99,8 +99,15 @@ export default function BookingCard() {
           
           if (!rFrom || !rTo) return false;
           
-          const pMatch = pLower.includes(rFrom) || (rFrom === 'delhi' && pLower.includes('new delhi'));
-          const dMatch = dLower.includes(rTo) || (rTo === 'delhi' && dLower.includes('new delhi'));
+          let pMatch = pLower.includes(rFrom) || (rFrom === 'delhi' && pLower.includes('new delhi'));
+          let dMatch = dLower.includes(rTo) || (rTo === 'delhi' && dLower.includes('new delhi'));
+          
+          if (!pMatch && r.fromAliases) {
+            pMatch = r.fromAliases.some(alias => pLower.includes(alias.toLowerCase()));
+          }
+          if (!dMatch && r.toAliases) {
+            dMatch = r.toAliases.some(alias => dLower.includes(alias.toLowerCase()));
+          }
           
           return pMatch && dMatch;
         });
