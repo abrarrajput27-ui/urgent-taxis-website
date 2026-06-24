@@ -79,3 +79,6 @@ Do not change locked UI sections while working on SEO pages or data files.
 - **100% PERMANENTLY LOCKED**: The logic that enforces scroll to top on every route change and page reload (`history.scrollRestoration = 'manual'` and `window.scrollTo(0, 0)`) must not be modified or removed. Every page must always load at the very top.
 ## Future Lock Rule
 Future changes must not introduce clipped/cut text, hidden H1, horizontal overflow, or fixed-height hero content that breaks on mobile/desktop. Existing responsive spacing and typography must be preserved unless explicitly approved.
+
+# Safe Frontend Updates
+Before making future frontend changes, developer must verify that city hero H1, route hero image, related route cards, and fare cards are not broken. No random spacing, fare, image, or URL changes are allowed without explicit approval.

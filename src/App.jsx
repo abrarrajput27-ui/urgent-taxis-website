@@ -49,6 +49,7 @@ function App() {
         <Route path="/blog" element={<LazyBlogListPage />} />
         <Route path="/blog/:slug" element={<LazyBlogPostPage />} />
         <Route path="/taxi-service-in/:citySlug" element={<CityTaxiPage />} />
+        <Route path="/city/:citySlug" element={<CityTaxiPage />} />
         <Route path="/:slug" element={<RouteLandingPage />} />
       </Routes>
       </Suspense>

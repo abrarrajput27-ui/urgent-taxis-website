@@ -125,17 +125,9 @@ Please share the availability and exact quote.`;
       <Header />
       
       {/* Route Hero Section */}
-      <section className="relative pt-28 pb-16 lg:pt-36 lg:pb-24 overflow-hidden">
+      <section className="relative pt-32 pb-16 lg:pt-40 lg:pb-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          {route.imageVerified === false ? (
-             <div className="w-full h-full bg-slate-800 flex items-center justify-center flex-col text-slate-400">
-               <ImageOff size={48} className="mb-2 opacity-50" />
-               <span className="text-sm font-bold uppercase tracking-wider">Image Not Verified</span>
-               <span className="text-xs mt-1 opacity-70">Actual location image required</span>
-             </div>
-          ) : (
-            <img src={route.heroImage || route.image} alt={route.route || route.seoTitle} className="w-full h-full object-cover" />
-          )}
+          <img src={route.heroImage || route.image || '/hero-bg.webp'} alt={route.route || route.seoTitle} className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-slate-900/80 mix-blend-multiply"></div>
         </div>
         

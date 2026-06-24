@@ -7,10 +7,12 @@ import { servicesData } from '../../data/mockData';
 import { getRelatedCities, getPopularRoutesFromCity } from '../../utils/internalLinking';
 
 export default function RelatedCityNavigation({ city }) {
+  if (!city) return null;
+
   const cityName = city.cityName || city.h1?.replace('Taxi Service in ', '') || city.citySlug;
-  const popularRoutes = getPopularRoutesFromCity(cityName, routes, 8);
-  const relatedCities = getRelatedCities(city, cities, 6);
-  const services = servicesData.slice(0, 4);
+  const popularRoutes = getPopularRoutesFromCity(cityName, routes, 8) || [];
+  const relatedCities = getRelatedCities(city, cities, 6) || [];
+  const services = servicesData?.slice(0, 4) || [];
 
   return (
     <div className="py-12 bg-white">

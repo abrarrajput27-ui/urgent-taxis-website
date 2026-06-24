@@ -60,7 +60,7 @@ const CityTaxiPage = () => {
       />
       <Header />
       {/* Hero Section */}
-      <section className="relative pt-28 pb-16 lg:pt-36 lg:pb-24 overflow-hidden">
+      <section className="relative pt-32 pb-16 lg:pt-40 lg:pb-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           {(city.heroImage || city.image) && (
             <img src={city.heroImage || city.image} alt={city.cityName} className="w-full h-full object-cover" />
