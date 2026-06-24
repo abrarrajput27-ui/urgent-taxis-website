@@ -1,0 +1,97 @@
+import BookingCard from './BookingCard';
+import { CheckCircle2, Zap, Tag, Headphones } from 'lucide-react';
+import { vehicleImages } from '../data/mockData';
+
+export default function Hero() {
+  return (
+    <div className="relative min-h-[600px] flex items-center bg-white overflow-hidden pt-28 pb-12 md:pb-0">
+      {/* Decorative City Background */}
+      <div 
+        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        style={{ 
+          backgroundImage: 'url("https://urgenttaxis.com/assets/hero-bg-BXzldUjR.webp")',
+          opacity: 0.8
+        }}
+      />
+      <div className="absolute inset-0 z-0 bg-gradient-to-r from-white/95 via-white/80 to-white/30"></div>
+
+      <div className="max-w-7xl mx-auto px-4 relative z-10 w-full flex flex-col md:flex-row items-center justify-between gap-8 h-full pt-8">
+        
+        {/* Left Column - Hero Text */}
+        <div className="w-full md:w-[45%] text-center md:text-left pt-6 md:pt-0 relative z-20">
+          <h1 className="text-[42px] md:text-5xl lg:text-[64px] font-black text-[#0b132b] leading-[1.1] mb-4 tracking-tight">
+            Book Trusted<br/>
+            <span className="text-[#2563eb]">Taxi</span> in Seconds
+          </h1>
+          <p className="text-slate-600 font-bold text-[15px] mb-8 flex flex-wrap items-center justify-center md:justify-start gap-2">
+            One Way <span className="text-slate-300">|</span> Round Trip <span className="text-slate-300">|</span> Airport Transfers
+          </p>
+          
+          <div className="flex flex-col gap-6 mb-8 items-center md:items-start text-left">
+            <div className="flex items-center gap-4">
+              <div className="w-10 h-10 rounded-full bg-[#1e3b8a] flex items-center justify-center flex-shrink-0 shadow-md">
+                <Zap size={18} className="text-white fill-white" />
+              </div>
+              <div className="flex flex-col">
+                <span className="text-[#0b132b] font-bold text-[15px] leading-tight">Instant Booking</span>
+                <span className="text-slate-500 font-medium text-[13px]">Quick & easy booking in just 2 clicks</span>
+              </div>
+            </div>
+            
+            <div className="flex items-center gap-4">
+              <div className="w-10 h-10 rounded-full bg-[#0aa63f] flex items-center justify-center flex-shrink-0 shadow-md">
+                <Tag size={18} className="text-white fill-white transform -scale-x-100" />
+              </div>
+              <div className="flex flex-col">
+                <span className="text-[#0b132b] font-bold text-[15px] leading-tight">Affordable Pricing</span>
+                <span className="text-slate-500 font-medium text-[13px]">Best price guarantee with no hidden charges</span>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <div className="w-10 h-10 rounded-full bg-[#1e3b8a] flex items-center justify-center flex-shrink-0 shadow-md">
+                <Headphones size={18} className="text-white" />
+              </div>
+              <div className="flex flex-col">
+                <span className="text-[#0b132b] font-bold text-[15px] leading-tight">24/7 Support</span>
+                <span className="text-slate-500 font-medium text-[13px]">We are always here to help you anytime</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Center Column - Car Image (Desktop only overlap) */}
+        <div className="hidden lg:block absolute left-1/2 bottom-0 -translate-x-[45%] translate-y-[5%] z-10 w-[550px] pointer-events-none">
+          <img 
+            src={vehicleImages.heroCar} 
+            alt="Premium Taxi" 
+            className="w-full h-auto object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.15)]"
+            onError={(e) => {
+              e.target.style.display = 'none';
+              e.target.nextSibling.style.display = 'block';
+            }}
+          />
+          {/* Polished SVG Fallback */}
+          <div className="hidden w-full drop-shadow-[0_20px_50px_rgba(0,0,0,0.15)] bg-transparent">
+            <svg viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
+              <path d="M150 250 L200 150 L550 150 L650 250 L750 250 L750 320 L50 320 L50 250 Z" fill="#ffffff" stroke="#e2e8f0" strokeWidth="4"/>
+              <path d="M220 160 L380 160 L380 240 L180 240 Z" fill="#e2e8f0"/>
+              <path d="M400 160 L540 160 L620 240 L400 240 Z" fill="#e2e8f0"/>
+              <circle cx="200" cy="320" r="40" fill="#1e293b" />
+              <circle cx="200" cy="320" r="20" fill="#94a3b8" />
+              <circle cx="600" cy="320" r="40" fill="#1e293b" />
+              <circle cx="600" cy="320" r="20" fill="#94a3b8" />
+              <rect x="70" y="270" width="30" height="15" fill="#f59e0b" rx="5"/>
+              <rect x="700" y="270" width="30" height="15" fill="#ef4444" rx="5"/>
+            </svg>
+          </div>
+        </div>
+
+        {/* Right Column - Booking Form */}
+        <div className="w-full md:w-auto flex justify-center md:justify-end z-20 pb-[60px] md:pb-0">
+          <BookingCard />
+        </div>
+      </div>
+    </div>
+  );
+}

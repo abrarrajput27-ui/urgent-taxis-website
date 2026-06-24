@@ -1,0 +1,151 @@
+export const vehicleImages = {
+  hatchback: 'https://images.unsplash.com/photo-1617531653332-bd46c24f2068?auto=format&fit=crop&q=80&w=400', // White WagonR/Hatchback
+  sedan: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80&w=400', // White Sedan
+  ertiga: 'https://images.unsplash.com/photo-1621245053093-9c8e100fb160?auto=format&fit=crop&q=80&w=400', // White MUV
+  innova: 'https://images.unsplash.com/photo-1608625345758-c92c81daabda?auto=format&fit=crop&q=80&w=400', // White Innova
+  crysta: 'https://images.unsplash.com/photo-1608625345758-c92c81daabda?auto=format&fit=crop&q=80&w=400', // White Crysta
+  traveller: 'https://images.unsplash.com/photo-1600851897255-ceb8aef4cb30?auto=format&fit=crop&q=80&w=400', // White Minibus
+  heroCar: 'https://urgenttaxis.com/assets/car-innova-mzR5j5Q5.png' // Large White Innova
+};
+
+export const fleetData = [
+  {
+    id: 1,
+    name: 'Swift Dzire',
+    category: 'Sedan',
+    seats: 4,
+    bags: 1,
+    ac: true,
+    pricePerKm: 9,
+    image: vehicleImages.sedan,
+    description: '4 seater | AC | 1 bag | ₹9/km Outstation'
+  },
+  {
+    id: 2,
+    name: 'Maruti Ertiga',
+    category: 'MUV',
+    seats: 6,
+    bags: 2,
+    ac: true,
+    pricePerKm: 12,
+    image: vehicleImages.ertiga,
+    description: '6 seater | AC | 2 bags | ₹12/km Outstation'
+  },
+  {
+    id: 3,
+    name: 'Toyota Innova',
+    category: 'SUV',
+    seats: 6,
+    bags: 2,
+    ac: true,
+    pricePerKm: 15,
+    image: vehicleImages.innova,
+    description: '6 seater | AC | 2 bags | ₹15/km Outstation'
+  },
+  {
+    id: 4,
+    name: 'Innova Crysta',
+    category: 'SUV',
+    seats: 6,
+    bags: 2,
+    ac: true,
+    pricePerKm: 18,
+    image: vehicleImages.crysta,
+    description: '6 seater | AC | 2 bags | ₹18/km Outstation'
+  },
+  {
+    id: 5,
+    name: 'Tempo Traveller',
+    category: 'Minibus',
+    seats: 12,
+    bags: 5,
+    ac: true,
+    pricePerKm: 22,
+    image: vehicleImages.traveller,
+    description: '12 seater | AC | 5 bags | ₹22/km Outstation'
+  }
+];
+
+export const routesData = [
+  { id: 1, route: 'Delhi to Haridwar', type: 'One Way', price: '4,499', image: 'https://images.unsplash.com/photo-1626014903706-5381ce3af28a?auto=format&fit=crop&q=80&w=400' }, // Haridwar river
+  { id: 2, route: 'Delhi to Dehradun', type: 'One Way', price: '5,499', image: 'https://images.unsplash.com/photo-1596752701041-949e2954848d?auto=format&fit=crop&q=80&w=400' }, // Dehradun hills
+  { id: 3, route: 'Delhi to Haldwani', type: 'One Way', price: '6,999', image: 'https://images.unsplash.com/photo-1605649487212-4dcfbfb5d691?auto=format&fit=crop&q=80&w=400' }, // Haldwani nature
+  { id: 4, route: 'Delhi to Rishikesh', type: 'One Way', price: '4,799', image: 'https://images.unsplash.com/photo-1592862089852-c62dbd6ec036?auto=format&fit=crop&q=80&w=400' }, // Rishikesh bridge
+  { id: 5, route: 'Delhi to Shimla', type: 'One Way', price: '7,999', image: 'https://images.unsplash.com/photo-1593693397690-362cb9666c6b?auto=format&fit=crop&q=80&w=400' } // Shimla mountains
+];
+
+export const testimonialsData = [
+  { id: 1, name: 'Rahul Sharma', location: 'New Delhi', text: 'Excellent service! Driver was on time, polite and the car was well maintained.' },
+  { id: 2, name: 'Priya Verma', location: 'Gurgaon', text: 'Booked for Delhi to Haridwar trip. Very comfortable journey at best price.' },
+  { id: 3, name: 'Amit Singh', location: 'Noida', text: 'Very quick response on WhatsApp and smooth booking experience.' },
+  { id: 4, name: 'Neha Kapoor', location: 'Faridabad', text: 'Best taxi service I have ever used. Highly recommended for outstation trips.' }
+];
+
+export const baseVehicles = [
+  {
+    id: 1,
+    name: 'WagonR / Swift or similar',
+    category: 'Hatchback',
+    seats: 4,
+    ac: true,
+    rating: 4.4,
+    fuelType: 'CNG',
+    image: vehicleImages.hatchback,
+    perKmRate: 9
+  },
+  {
+    id: 2,
+    name: 'Dzire / Etios or similar',
+    category: 'Sedan',
+    seats: 4,
+    ac: true,
+    rating: 4.2,
+    fuelType: 'Diesel',
+    image: vehicleImages.sedan,
+    perKmRate: 10
+  },
+  {
+    id: 3,
+    name: 'Ertiga or similar',
+    category: 'MUV',
+    seats: 6,
+    ac: true,
+    rating: 4.5,
+    fuelType: 'Diesel',
+    image: vehicleImages.ertiga,
+    perKmRate: 12
+  },
+  {
+    id: 4,
+    name: 'Innova or similar',
+    category: 'SUV',
+    seats: 6,
+    ac: true,
+    rating: 4.8,
+    fuelType: 'Diesel',
+    image: vehicleImages.innova,
+    perKmRate: 15
+  },
+  {
+    id: 5,
+    name: 'Innova Crysta',
+    category: 'SUV',
+    seats: 6,
+    ac: true,
+    rating: 4.9,
+    fuelType: 'Diesel',
+    image: vehicleImages.crysta,
+    perKmRate: 18
+  },
+  {
+    id: 6,
+    name: 'Tempo Traveller',
+    category: 'Minibus',
+    seats: 12,
+    ac: true,
+    rating: 4.6,
+    fuelType: 'Diesel',
+    image: vehicleImages.traveller,
+    perKmRate: 22
+  }
+];
