@@ -125,19 +125,9 @@ export default function RouteLandingPage() {
     ]
   } : null;
 
-  const [loadHeavy, setLoadHeavy] = useState(false);
-
   useEffect(() => {
     window.scrollTo(0, 0);
-    if (baseRoute) {
-      // Reset loadHeavy on route change
-      setLoadHeavy(false);
-      
-      // Delay heavy rendering by 150ms to allow initial critical paint to finish instantly
-      const timer = setTimeout(() => setLoadHeavy(true), 150);
-      return () => clearTimeout(timer);
-    }
-  }, [cleanSlug]);
+  }, [slug, route]);
 
   const slugParts = cleanSlug.replace('-taxi', '').split('-to-');
   const fallbackFrom = slugParts[0] ? slugParts[0].charAt(0).toUpperCase() + slugParts[0].slice(1) : 'City';
@@ -217,7 +207,7 @@ Please share the availability and exact quote.`;
       {/* Route Hero Section */}
       <section className="relative pt-32 pb-16 lg:pt-40 lg:pb-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src={route.heroImage || route.image || '/hero-bg.webp'} alt={route.route || route.seoTitle} loading="eager" fetchPriority="high" className="w-full h-full object-cover" />
+          <img src={route.heroImage || route.image || '/hero-bg.webp'} alt={route.route || route.seoTitle} fetchpriority="high" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-slate-900/80 mix-blend-multiply"></div>
         </div>
         
@@ -285,9 +275,6 @@ Please share the availability and exact quote.`;
 
               <RouteOverview route={route} />
               
-              {/* Defer Heavy SEO Components to prevent Main Thread blocking */}
-              {loadHeavy ? (
-                <>
                   <RouteWhyChooseUs route={route} />
                   <RouteMapIntelligence route={route} />
                   <LiveRouteInsight route={route} />
@@ -315,12 +302,6 @@ Please share the availability and exact quote.`;
                   <TouristPlanning route={route} />
                   <CoveragePlanner route={route} />
                   <RouteFaqs route={route} />
-                </>
-              ) : (
-                <div className="h-[1000px] flex items-start justify-center pt-20">
-                  <div className="w-8 h-8 border-4 border-blue-500 border-t-transparent rounded-full animate-spin opacity-50"></div>
-                </div>
-              )}
             </div>
 
             {/* Right Column - Sidebar */}
