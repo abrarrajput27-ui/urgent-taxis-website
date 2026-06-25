@@ -18,7 +18,7 @@ export default function CtaBand() {
             <img 
               src={vehicleImages.heroCar} 
               alt="Premium Taxi" 
-              className="w-full h-auto object-contain drop-shadow-2xl"
+              className="w-full h-auto object-contain drop-shadow-2xl md:scale-x-[-1]"
               onError={(e) => {
                 e.target.style.display = 'none';
               }}
