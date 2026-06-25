@@ -1,12 +1,14 @@
 
-import heroCarImg from '../assets/images/hero-car.jpg';
-import hatchbackImg from '../assets/images/Hatchback.webp';
-import sedanImg from '../assets/images/sedan.webp';
-import ertigaImg from '../assets/images/MUV.webp';
-import innovaImg from '../assets/images/with logo innova.png';
-import travellerImg from '../assets/images/car-traveller.webp';
-import urbaniaImg from '../assets/images/Urbania.webp';
-import busImg from '../assets/images/volvo-bus.jpg';
+import heroCarImg from '../assets/images/Fleet Brand/hero.webp';
+import hatchbackImg from '../assets/images/Fleet Brand/Hatchback.webp';
+import sedanImg from '../assets/images/Fleet Brand/Sedan.webp';
+import ertigaImg from '../assets/images/Fleet Brand/Ertiga.webp';
+import muvImg from '../assets/images/Fleet Brand/MUV.webp';
+import innovaImg from '../assets/images/Fleet Brand/innova.webp';
+import premiumSuvImg from '../assets/images/Fleet Brand/premium suv.webp';
+import travellerImg from '../assets/images/Fleet Brand/tempo traveller.webp';
+import urbaniaImg from '../assets/images/Fleet Brand/Urbnia.webp';
+import busImg from '../assets/images/Fleet Brand/volvo bus.webp';
 import serviceOneWayImg from '../assets/images/service-oneway.jpg';
 import serviceRoundTripImg from '../assets/images/roundtrip.jpg';
 import serviceAirportImg from '../assets/images/Airport Transfers j.jpg';
@@ -76,7 +78,7 @@ export const fleetData = [
     ac: true,
     music: true,
     fuel: true,
-    image: innovaImg, blend: true,
+    image: premiumSuvImg, blend: true,
     pricingType: 'car',
     pricing: { plain: 24, hill: 30 }
   },

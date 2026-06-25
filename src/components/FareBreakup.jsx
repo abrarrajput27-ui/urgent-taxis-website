@@ -6,27 +6,29 @@ import { getCurrentLocationConfig } from '../lib/location';
 import { MIN_BILLABLE_ROUND_TRIP_KM_PER_DAY } from '../lib/pricingRules';
 
 // Vehicle Images
-import carSwift from '../assets/images/car-swift.webp';
-import carDzire from '../assets/images/car-dzire.webp';
-import carErtiga from '../assets/images/car-ertiga.webp';
-import carInnova from '../assets/images/car-innova.webp';
-import carCrysta from '../assets/images/car-crysta.webp';
-import carTraveller from '../assets/images/car-traveller.webp';
+import fleetHatchback from '../assets/images/Fleet Brand/Hatchback.webp';
+import fleetSedan from '../assets/images/Fleet Brand/Sedan.webp';
+import fleetErtiga from '../assets/images/Fleet Brand/Ertiga.webp';
+import fleetInnova from '../assets/images/Fleet Brand/innova.webp';
+import fleetPremiumSuv from '../assets/images/Fleet Brand/premium suv.webp';
+import fleetTraveller from '../assets/images/Fleet Brand/tempo traveller.webp';
+import fleetUrbania from '../assets/images/Fleet Brand/Urbnia.webp';
+import fleetBus from '../assets/images/Fleet Brand/volvo bus.webp';
 
 const VEHICLE_IMAGES = {
-  "Hatchback": carSwift,
-  "Sedan": carDzire,
-  "Ertiga": carErtiga,
-  "Innova": carInnova,
-  "Innova Crysta": carCrysta,
-  "Traveller 12": carTraveller,
-  "Traveller 16": carTraveller,
-  "Traveller 20": carTraveller,
-  "Traveller 26": carTraveller,
-  "Urbania 12": carTraveller,
-  "Urbania 16": carTraveller,
-  "Bus 27": carTraveller,
-  "Bus 45": carTraveller
+  "Hatchback": fleetHatchback,
+  "Sedan": fleetSedan,
+  "Ertiga": fleetErtiga,
+  "Innova": fleetInnova,
+  "Innova Crysta": fleetInnova,
+  "Traveller 12": fleetTraveller,
+  "Traveller 16": fleetTraveller,
+  "Traveller 20": fleetTraveller,
+  "Traveller 26": fleetTraveller,
+  "Urbania 12": fleetUrbania,
+  "Urbania 16": fleetUrbania,
+  "Bus 27": fleetBus,
+  "Bus 45": fleetBus
 };
 
 const VEHICLE_INFO = {
@@ -422,6 +424,8 @@ Branch Phone: ${locationData.phone}
                       <img 
                         src={carImg} 
                         alt={fare.category} 
+                        loading="lazy"
+                        decoding="async"
                         className="w-full h-full object-contain"
                       />
                     </div>

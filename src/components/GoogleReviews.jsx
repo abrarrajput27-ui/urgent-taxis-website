@@ -83,7 +83,7 @@ export default function GoogleReviews() {
           <div key={index} className="bg-white rounded-2xl shadow-md border border-slate-100 p-6 flex flex-col h-full">
             <div className="flex items-center gap-4 mb-4">
               {review.profilePhoto ? (
-                <img src={review.profilePhoto} alt={review.reviewerName} className="w-12 h-12 rounded-full object-cover" />
+                <img src={review.profilePhoto} alt={review.reviewerName} loading="lazy" decoding="async" className="w-12 h-12 rounded-full object-cover" />
               ) : (
                 <UserCircle2 size={48} className="text-slate-300" />
               )}

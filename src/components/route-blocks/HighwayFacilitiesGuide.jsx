@@ -55,7 +55,7 @@ export default function HighwayFacilitiesGuide({ route }) {
               
               <div className="sm:w-48 h-32 shrink-0 rounded-lg overflow-hidden border border-slate-200 bg-slate-100 flex items-center justify-center relative">
                 {stop.imageVerified && stop.image ? (
-                  <img src={stop.image} alt={stop.name} className="w-full h-full object-cover" />
+                  <img src={stop.image} alt={stop.name} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                 ) : (
                   <div className="flex flex-col items-center justify-center text-slate-400 p-4 text-center">
                     <ImageOff size={24} className="mb-2 opacity-50" />

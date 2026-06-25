@@ -64,6 +64,8 @@ export default function FamousPlaces({ route }) {
                         <img 
                           src={dest.image} 
                           alt={dest.destination} 
+                          loading="lazy"
+                          decoding="async"
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         />
                       )}

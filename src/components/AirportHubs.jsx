@@ -15,7 +15,7 @@ export default function AirportHubs() {
           {/* Jewar Airport */}
           <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow group flex flex-col">
             <div className="h-48 overflow-hidden relative">
-              <img src="/images/routes/jewar-airport.webp" alt="Noida International Airport Jewar" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <img src="/images/routes/jewar-airport.webp" alt="Noida International Airport Jewar" loading="lazy" decoding="async" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4 flex items-center gap-3">
                 <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center shrink-0">
@@ -46,7 +46,7 @@ export default function AirportHubs() {
           {/* Delhi Airport */}
           <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow group flex flex-col">
             <div className="h-48 overflow-hidden relative">
-              <img src="/images/routes/default-airport-transfer.webp" alt="Delhi Airport IGI" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <img src="/images/routes/default-airport-transfer.webp" alt="Delhi Airport IGI" loading="lazy" decoding="async" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4 flex items-center gap-3">
                 <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center shrink-0">
