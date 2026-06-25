@@ -11,34 +11,23 @@ import { TRIP_TYPES } from '../lib/pricingRules';
 import { useJsApiLoader } from '@react-google-maps/api';
 import { Search, Filter, ShieldCheck, CheckCircle2, ChevronRight, Calendar, Users, Car, Info, ChevronDown, ChevronUp, MapPin, ArrowRight, Navigation, Map, RefreshCcw, CreditCard, AlertCircle, MessageCircle, Loader2, Briefcase, Check, Clock } from 'lucide-react';
 
-import hatchbackImg from '../assets/images/Hatchback.png';
-import sedanImg from '../assets/images/Sedan.png';
-import ertigaImg from '../assets/images/Ertiga.png';
-import muvImg from '../assets/images/MUV.png';
-import innovaImg from '../assets/images/innova.png';
-import premiumSuvImg from '../assets/images/premium suv.png';
-import travellerImg from '../assets/images/tempo traveller.png';
-import urbaniaImg from '../assets/images/urbania.png';
-import urbania16Img from '../assets/images/Urbnia.png';
-import busImg from '../assets/images/volvo bus.png';
-
 const VEHICLE_IMAGES = {
-  "Hatchback": hatchbackImg,
-  "Sedan": sedanImg,
-  "Ertiga": ertigaImg,
-  "MUV": muvImg,
-  "SUV": premiumSuvImg,
-  "Innova": innovaImg,
-  "Innova Crysta": innovaImg,
-  "Minibus": travellerImg,
-  "Traveller 12": travellerImg,
-  "Traveller 16": travellerImg,
-  "Traveller 20": travellerImg,
-  "Traveller 26": travellerImg,
-  "Urbania 12": urbaniaImg,
-  "Urbania 16": urbania16Img,
-  "Bus 27": busImg,
-  "Bus 45": busImg
+  "Hatchback": "/fleet/hatchback-white.png",
+  "Sedan": "/fleet/sedan-white.png",
+  "Ertiga": "/fleet/muv-white.png",
+  "MUV": "/fleet/muv-white.png",
+  "SUV": "/fleet/innova-hycross-official.png",
+  "Innova": "/fleet/innova-hycross-official.png",
+  "Innova Crysta": "/fleet/innova-hycross-official.png",
+  "Minibus": "/fleet/traveller-white.png",
+  "Traveller 12": "/fleet/traveller-white.png",
+  "Traveller 16": "/fleet/traveller-white.png",
+  "Traveller 20": "/fleet/traveller-white.png",
+  "Traveller 26": "/fleet/traveller-white.png",
+  "Urbania 12": "/fleet/urbania-white.png",
+  "Urbania 16": "/fleet/urbania-white.png",
+  "Bus 27": "/fleet/bus-white.png",
+  "Bus 45": "/fleet/bus-white.png"
 };
 
 const libraries = ['places'];
@@ -606,7 +595,7 @@ export default function FareResultsPage() {
 
           {filteredVehicles.map((cab, idx) => {
             const isExpanded = expandedCard === cab.category;
-            const carImg = VEHICLE_IMAGES[cab.category] || sedanImg;
+            const carImg = VEHICLE_IMAGES[cab.category] || '/fleet/sedan-white.png';
 
             return (
               <React.Fragment key={idx}>

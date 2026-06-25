@@ -62,7 +62,7 @@ export default function Hero() {
         </div>
 
         {/* Center Column - Car Image (Desktop only overlap shifted down & left) */}
-        <div className="hidden lg:block absolute left-1/2 bottom-0 -translate-x-[52%] translate-y-[40%] z-10 w-[680px] pointer-events-none">
+        <div className="hidden lg:block absolute left-1/2 bottom-0 -translate-x-[52%] translate-y-[20%] z-10 w-[680px] pointer-events-none">
           <img 
             src={vehicleImages.heroCar} 
             alt="Premium Taxi" 

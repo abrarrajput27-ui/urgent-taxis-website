@@ -5,30 +5,28 @@ import ReactGA from 'react-ga4';
 import { getCurrentLocationConfig } from '../lib/location';
 import { MIN_BILLABLE_ROUND_TRIP_KM_PER_DAY } from '../lib/pricingRules';
 
-import hatchbackImg from '../assets/images/Hatchback.png';
-import sedanImg from '../assets/images/Sedan.png';
-import ertigaImg from '../assets/images/Ertiga.png';
-import innovaImg from '../assets/images/innova.png';
-import premiumSuvImg from '../assets/images/premium suv.png';
-import travellerImg from '../assets/images/tempo traveller.png';
-import urbaniaImg from '../assets/images/urbania.png';
-import urbania16Img from '../assets/images/Urbnia.png';
-import busImg from '../assets/images/volvo bus.png';
+// Vehicle Images
+import carSwift from '../assets/images/car-swift.webp';
+import carDzire from '../assets/images/car-dzire.webp';
+import carErtiga from '../assets/images/car-ertiga.webp';
+import carInnova from '../assets/images/car-innova.webp';
+import carCrysta from '../assets/images/car-crysta.webp';
+import carTraveller from '../assets/images/car-traveller.webp';
 
 const VEHICLE_IMAGES = {
-  "Hatchback": hatchbackImg,
-  "Sedan": sedanImg,
-  "Ertiga": ertigaImg,
-  "Innova": innovaImg,
-  "Innova Crysta": premiumSuvImg,
-  "Traveller 12": travellerImg,
-  "Traveller 16": travellerImg,
-  "Traveller 20": travellerImg,
-  "Traveller 26": travellerImg,
-  "Urbania 12": urbaniaImg,
-  "Urbania 16": urbania16Img,
-  "Bus 27": busImg,
-  "Bus 45": busImg
+  "Hatchback": carSwift,
+  "Sedan": carDzire,
+  "Ertiga": carErtiga,
+  "Innova": carInnova,
+  "Innova Crysta": carCrysta,
+  "Traveller 12": carTraveller,
+  "Traveller 16": carTraveller,
+  "Traveller 20": carTraveller,
+  "Traveller 26": carTraveller,
+  "Urbania 12": carTraveller,
+  "Urbania 16": carTraveller,
+  "Bus 27": carTraveller,
+  "Bus 45": carTraveller
 };
 
 const VEHICLE_INFO = {
