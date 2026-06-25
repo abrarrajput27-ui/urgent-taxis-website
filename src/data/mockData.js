@@ -1,12 +1,15 @@
 
-import heroCarImg from '../assets/images/hero-car.jpg';
-import hatchbackImg from '../assets/images/Hatchback.webp';
-import sedanImg from '../assets/images/sedan.webp';
-import ertigaImg from '../assets/images/MUV.webp';
-import innovaImg from '../assets/images/with logo innova.png';
-import travellerImg from '../assets/images/car-traveller.webp';
-import urbaniaImg from '../assets/images/Urbania.webp';
-import busImg from '../assets/images/volvo-bus.jpg';
+import heroCarImg from '../assets/images/Hero.png';
+import hatchbackImg from '../assets/images/Hatchback.png';
+import sedanImg from '../assets/images/Sedan.png';
+import ertigaImg from '../assets/images/Ertiga.png';
+import muvImg from '../assets/images/MUV.png';
+import innovaImg from '../assets/images/innova.png';
+import premiumSuvImg from '../assets/images/premium suv.png';
+import travellerImg from '../assets/images/tempo traveller.png';
+import urbaniaImg from '../assets/images/urbania.png';
+import urbania16Img from '../assets/images/Urbnia.png';
+import busImg from '../assets/images/volvo bus.png';
 import serviceOneWayImg from '../assets/images/service-oneway.jpg';
 import serviceRoundTripImg from '../assets/images/roundtrip.jpg';
 import serviceAirportImg from '../assets/images/Airport Transfers j.jpg';
@@ -37,7 +40,7 @@ export const fleetData = [
     ac: true,
     music: true,
     fuel: true,
-    image: hatchbackImg, blend: true,
+    image: hatchbackImg,
     pricingType: 'car',
     pricing: { plain: 12, hill: 18 }
   },
@@ -50,7 +53,7 @@ export const fleetData = [
     ac: true,
     music: true,
     fuel: true,
-    image: sedanImg, blend: true,
+    image: sedanImg,
     pricingType: 'car',
     pricing: { plain: 14, hill: 20 }
   },
@@ -63,7 +66,7 @@ export const fleetData = [
     ac: true,
     music: true,
     fuel: true,
-    image: ertigaImg, blend: true,
+    image: muvImg,
     pricingType: 'car',
     pricing: { plain: 16, hill: 22 }
   },
@@ -76,7 +79,7 @@ export const fleetData = [
     ac: true,
     music: true,
     fuel: true,
-    image: innovaImg, blend: true,
+    image: premiumSuvImg,
     pricingType: 'car',
     pricing: { plain: 24, hill: 30 }
   },
@@ -155,7 +158,7 @@ export const fleetData = [
     ac: true,
     music: true,
     fuel: true,
-    image: urbaniaImg,
+    image: urbania16Img,
     pricingType: 'car',
     perKmRate: 46,
     pricing: { plain: 46, hill: 52 }
@@ -265,12 +268,12 @@ export const testimonialsData = [
 ];
 
 export const baseVehicles = [
-  { id: 1, name: 'Maruti WagonR', category: 'Hatchback', seats: 4, luggage: 2, ac: true, rating: 4.5, fuelType: 'CNG', image: '/fleet/hatchback-white.png?v=10', blend: true, perKmRate: 10 },
-  { id: 2, name: 'Swift Dzire', category: 'Sedan', seats: 4, luggage: 3, ac: true, rating: 4.8, fuelType: 'Diesel', image: '/fleet/sedan-white.png?v=40', blend: true, perKmRate: 11 },
-  { id: 3, name: 'Toyota Etios', category: 'Sedan', seats: 4, luggage: 3, ac: true, rating: 4.7, fuelType: 'Petrol', image: '/fleet/sedan-white.png?v=40', blend: true, perKmRate: 11 },
-  { id: 4, name: 'Maruti Ertiga', category: 'MUV', seats: 6, luggage: 3, ac: true, rating: 4.6, fuelType: 'CNG', image: '/fleet/muv-white.png?v=40', blend: true, perKmRate: 14 },
-  { id: 5, name: 'Toyota Innova Crysta', category: 'SUV', seats: 6, luggage: 4, ac: true, rating: 4.9, fuelType: 'Diesel', image: '/fleet/innova-hycross-official.png?v=40', blend: true, perKmRate: 18 },
-  { id: 6, name: 'Force Traveller AC', category: 'Minibus', seats: 12, luggage: 8, ac: true, rating: 4.7, fuelType: 'Diesel', image: '/fleet/traveller-white.png?v=4', perKmRate: 25 }
+  { id: 1, name: 'Maruti WagonR', category: 'Hatchback', seats: 4, luggage: 2, ac: true, rating: 4.5, fuelType: 'CNG', image: hatchbackImg, perKmRate: 10 },
+  { id: 2, name: 'Swift Dzire', category: 'Sedan', seats: 4, luggage: 3, ac: true, rating: 4.8, fuelType: 'Diesel', image: sedanImg, perKmRate: 11 },
+  { id: 3, name: 'Toyota Etios', category: 'Sedan', seats: 4, luggage: 3, ac: true, rating: 4.7, fuelType: 'Petrol', image: sedanImg, perKmRate: 11 },
+  { id: 4, name: 'Maruti Ertiga', category: 'MUV', seats: 6, luggage: 3, ac: true, rating: 4.6, fuelType: 'CNG', image: ertigaImg, perKmRate: 14 },
+  { id: 5, name: 'Toyota Innova Crysta', category: 'SUV', seats: 6, luggage: 4, ac: true, rating: 4.9, fuelType: 'Diesel', image: innovaImg, perKmRate: 18 },
+  { id: 6, name: 'Force Traveller AC', category: 'Minibus', seats: 12, luggage: 8, ac: true, rating: 4.7, fuelType: 'Diesel', image: travellerImg, perKmRate: 25 }
 ];
 
 export const servicesData = [

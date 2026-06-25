@@ -117,7 +117,7 @@ Please share the availability and exact quote.`;
                             <img 
                               src={car.image} 
                               alt={car.categoryName} 
-                              className={`w-full h-full object-contain object-center transition-transform duration-500 group-hover:scale-x-[-1] ${car.blend ? 'mix-blend-multiply' : ''}`}
+                              className={`w-full h-full object-contain object-center transition-transform duration-500 group-hover:scale-[1.02] ${car.blend ? 'mix-blend-multiply' : ''}`}
                               onError={(e) => {
                                 e.target.style.display = 'none';
                                 e.target.nextSibling.style.display = 'flex';
