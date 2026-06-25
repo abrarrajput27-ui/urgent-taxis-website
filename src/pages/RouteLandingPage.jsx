@@ -48,10 +48,63 @@ import Breadcrumbs from '../components/Breadcrumbs';
 export default function RouteLandingPage() {
   const { slug } = useParams();
   const cleanSlug = slug ? slug.trim().toLowerCase().replace(/\/$/, '') : '';
-  const route = routes.find(r => 
+  const baseRoute = routes.find(r => 
     (r.slug && r.slug.toLowerCase() === cleanSlug) || 
     (r.routeSlug && r.routeSlug.toLowerCase() === cleanSlug)
   );
+
+  const route = baseRoute ? {
+    ...baseRoute,
+    routeHighlights: `Are you planning a trip from the bustling streets of ${baseRoute.fromCity || baseRoute.from} to the scenic gateway of ${baseRoute.toCity || baseRoute.to}? Booking a reliable ${baseRoute.fromCity || baseRoute.from} to ${baseRoute.toCity || baseRoute.to} taxi service has never been easier with Urgent Taxis. Whether you need a quick one way taxi for a solo journey or a spacious vehicle for a group vacation, we have the perfect ride tailored to your needs. Our well-maintained fleet includes comfortable premium Sedans, spacious Maruti Suzuki Ertigas, and the luxurious Toyota Innova Crysta, ensuring a smooth and relaxing travel experience. We pride ourselves on offering a completely transparent fare structure, which means no hidden costs or surprise charges at the end of your trip. We provide convenient door-to-door service with flexible pickup options from anywhere across ${baseRoute.fromCity || baseRoute.from} directly to your exact drop location in ${baseRoute.toCity || baseRoute.to}. Our professional chauffeurs are experienced on this highway, making us the top choice for family vacations, important business trips, and tourist travel. We prioritize your safety, comfort, and time above all else. Ready to start your journey? Get an instant quote or confirm your booking in seconds through a quick WhatsApp message or a direct call. Choose Urgent Taxis for your ${baseRoute.fromCity || baseRoute.from} to ${baseRoute.toCity || baseRoute.to} drop and travel with absolute peace of mind.`,
+    whyChooseUs: `<p>When booking a ride to ${baseRoute.toCity || baseRoute.to}, reliability is key. We offer verified commercial vehicles, experienced highway-certified drivers, and a strict no-hidden-cost policy. We guarantee timely pickups so your travel schedule is never delayed.</p>`,
+    travelTips: `<ul><li>Carry light woolens if traveling in the evening.</li><li>Keep motion sickness medicine handy for the winding roads nearing ${baseRoute.toCity || baseRoute.to}.</li><li>Start early morning to avoid traffic.</li></ul>`,
+    bestTime: `<p>${baseRoute.toCity || baseRoute.to} is accessible year-round, but the best time for onward journeys is between March to June, and September to December.</p>`,
+    bookingProcess: `<p>Booking your ride is simple and takes less than 2 minutes. We do not require complex app downloads or upfront payments. Follow the 3 easy steps below or simply tap the WhatsApp button to get started.</p>`,
+    nearbyDestinations: `<ul><li><strong>Local Sightseeing:</strong> Explore the best spots around ${baseRoute.toCity || baseRoute.to}.</li><li><strong>Nearby Hubs:</strong> Easy connectivity to nearby towns and cities.</li><li><strong>Transit points:</strong> Convenient access to the nearest railway or bus stations.</li></ul>`,
+    fareNotes: `<p>The fares mentioned are for one-way drops. Toll taxes (approx. ₹300-₹500) and state taxes are not included in the base fare and will be added to the final bill. No night charges if journey completes before 10 PM.</p>`,
+    safetyNotes: `<p>All our vehicles are GPS-enabled and driven by commercially licensed drivers with police verification. We sanitize the cabs before every trip and mandate seatbelts for all passengers.</p>`,
+    overview: {
+      distance: `${baseRoute.distanceKm || 'Approx'} km`,
+      travelTime: baseRoute.duration || 'Varies',
+      bestTravelTime: "Early Morning (5 AM - 7 AM)",
+      dayVsNight: "Day travel is highly recommended for scenic views and safety. Night travel is safe but requires slower driving on highway stretches.",
+      roadCondition: "The highway route is generally well-maintained with clear signage and frequent toll booths."
+    },
+    faqs: [
+      {
+        question: `What is the taxi fare from ${baseRoute.fromCity || baseRoute.from} to ${baseRoute.toCity || baseRoute.to}?`,
+        answer: `The base sedan fare starts from ₹${baseRoute.sedanFare || 2999}. Fares for Ertiga/SUV start at ₹${baseRoute.ertigaFare || 3999}, and Innova Crysta at ₹${baseRoute.crystaFare || 6999}. Final fare depends on exact pickup/drop locations.`
+      },
+      {
+        question: `How can I book a ${baseRoute.fromCity || baseRoute.from} to ${baseRoute.toCity || baseRoute.to} taxi?`,
+        answer: `You can book easily by calling our 24/7 helpline at 7310651940 or by sending your trip details on WhatsApp at 8595066033. No app download is required.`
+      },
+      {
+        question: `Are toll taxes included in the fare?`,
+        answer: `No, toll taxes and state taxes (if applicable) are extra and to be paid by the customer as per actual receipts during the journey.`
+      },
+      {
+        question: `How much time does it take to reach ${baseRoute.toCity || baseRoute.to} from ${baseRoute.fromCity || baseRoute.from}?`,
+        answer: `The typical travel time is around ${baseRoute.duration || 'a few hours'} to cover the ${baseRoute.distanceKm || ''} km distance, depending on traffic conditions.`
+      },
+      {
+        question: `Is it safe to travel at night?`,
+        answer: `Yes, it is perfectly safe. Our drivers are highly experienced with the highway and our cabs are GPS-monitored. We operate 24/7.`
+      },
+      {
+        question: `Do I have to pay in advance?`,
+        answer: `We usually require a small token advance to confirm your booking and assign the cab. The remaining balance can be paid directly to the driver.`
+      },
+      {
+        question: `What kind of vehicles are available?`,
+        answer: `We offer Sedans (Dzire, Etios), 6-seater SUVs (Ertiga, Carens), and premium SUVs (Innova Crysta). We also provide Tempo Travellers for larger groups.`
+      },
+      {
+        question: `Can I modify my booking later?`,
+        answer: `Yes, you can modify your pickup time or location by informing us at least 4 hours before the scheduled pickup time without any extra charges.`
+      }
+    ]
+  } : null;
 
   const [loadHeavy, setLoadHeavy] = useState(false);
 
