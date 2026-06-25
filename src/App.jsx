@@ -50,6 +50,7 @@ function App() {
         <Route path="/blog/:slug" element={<LazyBlogPostPage />} />
         <Route path="/taxi-service-in/:citySlug" element={<CityTaxiPage />} />
         <Route path="/city/:citySlug" element={<CityTaxiPage />} />
+        <Route path="/route/:slug" element={<RouteLandingPage />} />
         <Route path="/:slug" element={<RouteLandingPage />} />
       </Routes>
       </Suspense>
