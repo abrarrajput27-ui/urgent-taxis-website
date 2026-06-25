@@ -20,11 +20,13 @@ export default function GoogleReviews() {
       </div>
       
       {/* EmbedSocial Google Reviews Widget */}
-      <div className="embedsocial-hashtag" data-ref="0d241ea4b2bb88c736d703fa907f708cfcb143aa" data-dynamicload="yes" data-lazyload="yes">
-        <a className="feed-powered-by-es feed-powered-by-es-feed-img es-widget-branding" href="https://embedsocial.com/google-reviews-widget/" target="_blank" rel="noreferrer" title="Embed Google reviews">
-          <img src="https://embedsocial.com/cdn/icon/embedsocial-logo.webp" alt="EmbedSocial" />
-          <div className="es-widget-branding-text">Embed Google reviews</div>
-        </a>
+      <div className="w-full overflow-hidden">
+        <div className="embedsocial-hashtag" data-ref="0d241ea4b2bb88c736d703fa907f708cfcb143aa" data-dynamicload="yes" data-lazyload="yes">
+          <a className="feed-powered-by-es feed-powered-by-es-feed-img es-widget-branding" href="https://embedsocial.com/google-reviews-widget/" target="_blank" rel="noreferrer" title="Embed Google reviews">
+            <img src="https://embedsocial.com/cdn/icon/embedsocial-logo.webp" alt="EmbedSocial" />
+            <div className="es-widget-branding-text">Embed Google reviews</div>
+          </a>
+        </div>
       </div>
     </div>
   );
