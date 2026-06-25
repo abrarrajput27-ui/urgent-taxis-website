@@ -14,7 +14,7 @@ export default function CtaBand() {
           </div>
           
           {/* Right Content with Overlapping Car */}
-          <div className="absolute -top-16 md:top-1/2 left-1/2 md:left-auto md:-right-12 -translate-x-1/2 md:translate-x-0 md:-translate-y-[45%] w-[380px] max-w-[100vw] md:max-w-none md:w-[680px] z-30 pointer-events-none">
+          <div className="absolute -top-24 md:top-1/2 left-1/2 md:left-auto md:-right-12 -translate-x-1/2 md:translate-x-0 md:-translate-y-[55%] w-[380px] max-w-[100vw] md:max-w-none md:w-[680px] z-30 pointer-events-none">
             <img 
               src={vehicleImages.heroCar} 
               alt="Premium Taxi" 
