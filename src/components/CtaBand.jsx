@@ -19,6 +19,8 @@ export default function CtaBand() {
               src={vehicleImages.heroCar} 
               alt="Premium Taxi" 
               className="w-full h-auto object-contain drop-shadow-2xl"
+              loading="eager"
+              fetchPriority="high"
               onError={(e) => {
                 e.target.style.display = 'none';
               }}
