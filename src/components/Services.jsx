@@ -133,7 +133,7 @@ export default function Services({ gridMode = false }) {
               return (
                 <div 
                   key={index} 
-                  className={gridMode ? "w-full bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] flex flex-col hover:shadow-[0_12px_40px_rgba(0,0,0,0.16)] hover:-translate-y-2 transition-all duration-300 group overflow-hidden" : "w-[82vw] sm:w-[320px] md:w-[calc(50%-12px)] lg:w-[calc(25%-18px)] shrink-0 snap-center bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] flex flex-col hover:shadow-[0_12px_40px_rgba(0,0,0,0.16)] hover:-translate-y-2 transition-all duration-300 group overflow-hidden mx-auto"}
+                  className={gridMode ? "w-full bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] flex flex-col hover:shadow-[0_12px_40px_rgba(0,0,0,0.16)] hover:-translate-y-2 transition-all duration-300 group overflow-hidden" : "w-full sm:w-[320px] md:w-[calc(50%-12px)] lg:w-[calc(25%-18px)] shrink-0 snap-center bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] flex flex-col hover:shadow-[0_12px_40px_rgba(0,0,0,0.16)] hover:-translate-y-2 transition-all duration-300 group overflow-hidden mx-auto"}
                 >
                   <Link to={`/service/${getServiceSlug(service.title)}`} className="w-full h-48 relative overflow-hidden shrink-0 block">
                     <div className="absolute inset-0 bg-blue-900/5 group-hover:bg-transparent transition-all duration-300 z-10"></div>
