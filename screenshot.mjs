@@ -20,7 +20,7 @@ const __dirname = dirname(__filename);
     console.log(`Taking ${isMobile ? 'mobile' : 'desktop'} screenshots for ${namePrefix}...`);
 
     // 1. Hero Section
-    await page.goto('http://localhost:4173', { waitUntil: 'networkidle0' });
+    await page.goto('http://localhost:5174', { waitUntil: 'networkidle0' });
     // evaluate and remove any external elements if necessary
     await new Promise(r => setTimeout(r, 1000));
     await page.screenshot({ path: join(__dirname, `${namePrefix}_1_hero.png`), fullPage: false });
