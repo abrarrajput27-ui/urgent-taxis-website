@@ -33,26 +33,28 @@ function App() {
     <Router>
       <ScrollToTop />
       <Suspense fallback={<LoadingSpinner />}>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/fare-results" element={<LazyFareResultsPage />} />
-        <Route path="/checkout" element={<LazyCheckoutPage />} />
-        <Route path="/service/:slug" element={<ServiceLandingPage />} />
-        <Route path="/services" element={<ServicesPage />} />
-        <Route path="/routes" element={<RoutesPage />} />
-        <Route path="/fleet" element={<FleetMasterPage />} />
-        <Route path="/fleet/:category" element={<FleetCategoryPage />} />
-        <Route path="/reviews" element={<LazyReviewsPage />} />
-        <Route path="/admin/reviews" element={<LazyAdminReviewsPage />} />
-        <Route path="/about" element={<AboutUsPage />} />
-        <Route path="/contact" element={<ContactUsPage />} />
-        <Route path="/blog" element={<LazyBlogListPage />} />
-        <Route path="/blog/:slug" element={<LazyBlogPostPage />} />
-        <Route path="/taxi-service-in/:citySlug" element={<CityTaxiPage />} />
-        <Route path="/city/:citySlug" element={<CityTaxiPage />} />
-        <Route path="/route/:slug" element={<RouteLandingPage />} />
-        <Route path="/:slug" element={<RouteLandingPage />} />
-      </Routes>
+        <div className="overflow-x-hidden w-full">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/fare-results" element={<LazyFareResultsPage />} />
+            <Route path="/checkout" element={<LazyCheckoutPage />} />
+            <Route path="/service/:slug" element={<ServiceLandingPage />} />
+            <Route path="/services" element={<ServicesPage />} />
+            <Route path="/routes" element={<RoutesPage />} />
+            <Route path="/fleet" element={<FleetMasterPage />} />
+            <Route path="/fleet/:category" element={<FleetCategoryPage />} />
+            <Route path="/reviews" element={<LazyReviewsPage />} />
+            <Route path="/admin/reviews" element={<LazyAdminReviewsPage />} />
+            <Route path="/about" element={<AboutUsPage />} />
+            <Route path="/contact" element={<ContactUsPage />} />
+            <Route path="/blog" element={<LazyBlogListPage />} />
+            <Route path="/blog/:slug" element={<LazyBlogPostPage />} />
+            <Route path="/taxi-service-in/:citySlug" element={<CityTaxiPage />} />
+            <Route path="/city/:citySlug" element={<CityTaxiPage />} />
+            <Route path="/route/:slug" element={<RouteLandingPage />} />
+            <Route path="/:slug" element={<RouteLandingPage />} />
+          </Routes>
+        </div>
       </Suspense>
     </Router>
   );

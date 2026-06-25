@@ -68,11 +68,10 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
-  overflow-x: hidden;
+  /* Removed overflow-x: hidden to fix iOS Safari vertical scroll issues */
 }
 
 section {
