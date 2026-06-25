@@ -81,7 +81,7 @@ const CityTaxiPage = () => {
       <section className="relative pt-32 pb-16 lg:pt-40 lg:pb-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           {(city.heroImage || city.image) && (
-            <img src={city.heroImage || city.image} alt={city.cityName} className="w-full h-full object-cover" />
+            <img src={city.heroImage || city.image} alt={city.cityName} loading="eager" fetchPriority="high" className="w-full h-full object-cover" />
           )}
           <div className="absolute inset-0 bg-gradient-to-r from-[#1746a2] to-[#0c3182] mix-blend-multiply opacity-90"></div>
         </div>

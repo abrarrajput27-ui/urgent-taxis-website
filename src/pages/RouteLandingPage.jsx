@@ -129,7 +129,7 @@ export default function RouteLandingPage() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    if (route) {
+    if (baseRoute) {
       // Reset loadHeavy on route change
       setLoadHeavy(false);
       
@@ -137,7 +137,7 @@ export default function RouteLandingPage() {
       const timer = setTimeout(() => setLoadHeavy(true), 150);
       return () => clearTimeout(timer);
     }
-  }, [slug, route]);
+  }, [cleanSlug]);
 
   const slugParts = cleanSlug.replace('-taxi', '').split('-to-');
   const fallbackFrom = slugParts[0] ? slugParts[0].charAt(0).toUpperCase() + slugParts[0].slice(1) : 'City';
@@ -217,7 +217,7 @@ Please share the availability and exact quote.`;
       {/* Route Hero Section */}
       <section className="relative pt-32 pb-16 lg:pt-40 lg:pb-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src={route.heroImage || route.image || '/hero-bg.webp'} alt={route.route || route.seoTitle} className="w-full h-full object-cover" />
+          <img src={route.heroImage || route.image || '/hero-bg.webp'} alt={route.route || route.seoTitle} loading="eager" fetchPriority="high" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-slate-900/80 mix-blend-multiply"></div>
         </div>
         
