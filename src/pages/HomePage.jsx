@@ -1,20 +1,19 @@
+import React, { lazy, Suspense } from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import TrustStrip from '../components/TrustStrip';
-import Services from '../components/Services';
-import Fleet from '../components/Fleet';
-import PopularRoutes from '../components/PopularRoutes';
-import Testimonials from '../components/Testimonials';
-import GoogleReviews from '../components/GoogleReviews';
+
+const Services = lazy(() => import('../components/Services'));
+const Fleet = lazy(() => import('../components/Fleet'));
+const PopularRoutes = lazy(() => import('../components/PopularRoutes'));
+const AirportHubs = lazy(() => import('../components/AirportHubs'));
+const PopularCities = lazy(() => import('../components/PopularCities'));
+const GoogleReviews = lazy(() => import('../components/GoogleReviews'));
+const LatestBlogs = lazy(() => import('../components/blog/LatestBlogs'));
 
 import Footer from '../components/Footer';
 import SEOHead from '../components/SEOHead';
 import { createLocalBusinessSchema } from '../utils/seoHelpers';
-import PopularCities from '../components/PopularCities';
-import AirportHubs from '../components/AirportHubs';
-
-
-import LatestBlogs from '../components/blog/LatestBlogs';
 
 export default function HomePage() {
   const schema = createLocalBusinessSchema();
@@ -31,13 +30,15 @@ export default function HomePage() {
       <main className="flex-grow">
         <Hero />
         <TrustStrip />
-        <Services />
-        <Fleet />
-        <PopularRoutes />
-        <AirportHubs />
-        <PopularCities />
-        <GoogleReviews />
-        <LatestBlogs />
+        <Suspense fallback={<div className="h-20 w-full flex items-center justify-center"><div className="animate-pulse bg-slate-200 h-8 w-32 rounded"></div></div>}>
+          <Services />
+          <Fleet />
+          <PopularRoutes />
+          <AirportHubs />
+          <PopularCities />
+          <GoogleReviews />
+          <LatestBlogs />
+        </Suspense>
       </main>
       <Footer />
     </div>
