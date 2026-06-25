@@ -53,8 +53,22 @@ export default function RouteLandingPage() {
     (r.routeSlug && r.routeSlug.toLowerCase() === cleanSlug)
   );
 
+  const availableImages = ['haldwani', 'nainital', 'haridwar', 'rishikesh', 'dehradun', 'jim-corbett', 'mussoorie', 'ayodhya', 'varanasi', 'shimla', 'manali', 'delhi', 'delhi-airport', 'gurugram', 'ghaziabad', 'rudrapur', 'ranikhet'];
+
+  const toSlug = baseRoute?.toCity?.toLowerCase().replace(/ /g, '-') || '';
+  const fromSlug = baseRoute?.fromCity?.toLowerCase().replace(/ /g, '-') || '';
+
+  // Priority: 
+  // 1. If toCity is an airport, use airport image
+  // 2. Otherwise, use destination (toCity) image if available
+  // 3. Otherwise, use fromCity image if available (especially if fromCity is airport)
+  const imageTarget = toSlug.includes('airport') ? toSlug : (availableImages.includes(toSlug) ? toSlug : (availableImages.includes(fromSlug) ? fromSlug : 'fallback'));
+  const dynamicHeroImage = imageTarget !== 'fallback' ? `/images/destinations/${imageTarget}.webp` : (baseRoute?.heroImage || '/hero-bg.webp');
+
   const route = baseRoute ? {
     ...baseRoute,
+    heroImage: dynamicHeroImage,
+    image: dynamicHeroImage,
     routeHighlights: `Are you planning a trip from the bustling streets of ${baseRoute.fromCity || baseRoute.from} to the scenic gateway of ${baseRoute.toCity || baseRoute.to}? Booking a reliable ${baseRoute.fromCity || baseRoute.from} to ${baseRoute.toCity || baseRoute.to} taxi service has never been easier with Urgent Taxis. Whether you need a quick one way taxi for a solo journey or a spacious vehicle for a group vacation, we have the perfect ride tailored to your needs. Our well-maintained fleet includes comfortable premium Sedans, spacious Maruti Suzuki Ertigas, and the luxurious Toyota Innova Crysta, ensuring a smooth and relaxing travel experience. We pride ourselves on offering a completely transparent fare structure, which means no hidden costs or surprise charges at the end of your trip. We provide convenient door-to-door service with flexible pickup options from anywhere across ${baseRoute.fromCity || baseRoute.from} directly to your exact drop location in ${baseRoute.toCity || baseRoute.to}. Our professional chauffeurs are experienced on this highway, making us the top choice for family vacations, important business trips, and tourist travel. We prioritize your safety, comfort, and time above all else. Ready to start your journey? Get an instant quote or confirm your booking in seconds through a quick WhatsApp message or a direct call. Choose Urgent Taxis for your ${baseRoute.fromCity || baseRoute.from} to ${baseRoute.toCity || baseRoute.to} drop and travel with absolute peace of mind.`,
     whyChooseUs: `<p>When booking a ride to ${baseRoute.toCity || baseRoute.to}, reliability is key. We offer verified commercial vehicles, experienced highway-certified drivers, and a strict no-hidden-cost policy. We guarantee timely pickups so your travel schedule is never delayed.</p>`,
     travelTips: `<ul><li>Carry light woolens if traveling in the evening.</li><li>Keep motion sickness medicine handy for the winding roads nearing ${baseRoute.toCity || baseRoute.to}.</li><li>Start early morning to avoid traffic.</li></ul>`,
