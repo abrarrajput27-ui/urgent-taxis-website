@@ -53,7 +53,12 @@ export default function RouteLandingPage() {
     (r.routeSlug && r.routeSlug.toLowerCase() === cleanSlug)
   );
 
-  const availableImages = ['haldwani', 'nainital', 'haridwar', 'rishikesh', 'dehradun', 'jim-corbett', 'mussoorie', 'ayodhya', 'varanasi', 'shimla', 'manali', 'delhi', 'delhi-airport', 'gurugram', 'ghaziabad', 'rudrapur', 'ranikhet'];
+  const availableImages = [
+    'haldwani', 'nainital', 'haridwar', 'rishikesh', 'dehradun', 
+    'jim-corbett', 'mussoorie', 'ayodhya', 'varanasi', 'shimla', 
+    'manali', 'delhi', 'delhi-airport', 'gurugram', 'ghaziabad', 
+    'rudrapur', 'ranikhet', 'noida', 'kainchi-dham', 'bhimtal', 'sattal'
+  ];
 
   const toSlug = baseRoute?.toCity?.toLowerCase().replace(/ /g, '-') || '';
   const fromSlug = baseRoute?.fromCity?.toLowerCase().replace(/ /g, '-') || '';
