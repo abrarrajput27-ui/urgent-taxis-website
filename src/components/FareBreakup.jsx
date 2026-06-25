@@ -21,6 +21,7 @@ const VEHICLE_IMAGES = {
   "Ertiga": fleetErtiga,
   "Innova": fleetInnova,
   "Innova Crysta": fleetInnova,
+  "Premium SUV": fleetPremiumSuv,
   "Traveller 12": fleetTraveller,
   "Traveller 16": fleetTraveller,
   "Traveller 20": fleetTraveller,

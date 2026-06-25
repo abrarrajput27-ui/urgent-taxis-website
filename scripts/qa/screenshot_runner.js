@@ -20,12 +20,12 @@ const __dirname = dirname(__filename);
     console.log(`Taking ${isMobile ? 'mobile' : 'desktop'} screenshots for ${namePrefix}...`);
 
     // Fare Engine screenshot
-    await page.goto('http://localhost:5178/fare-results?pickup=Delhi&drop=Agra', { waitUntil: 'networkidle0' });
+    await page.goto('http://localhost:4173/fare-results?pickup=Delhi&drop=Agra', { waitUntil: 'networkidle0' });
     await new Promise(r => setTimeout(r, 2000));
     await page.screenshot({ path: join(__dirname, `${namePrefix}_fare_engine.png`), fullPage: true });
 
     // Route fare (homepage) screenshot
-    await page.goto('http://localhost:5178/', { waitUntil: 'networkidle0' });
+    await page.goto('http://localhost:4173/', { waitUntil: 'networkidle0' });
     await new Promise(r => setTimeout(r, 1000));
     await page.screenshot({ path: join(__dirname, `${namePrefix}_route_fare.png`), fullPage: true });
   };

@@ -13,6 +13,7 @@ import fleetHatchback from '../assets/images/Fleet Brand/Hatchback.webp';
 import fleetSedan from '../assets/images/Fleet Brand/Sedan.webp';
 import fleetErtiga from '../assets/images/Fleet Brand/Ertiga.webp';
 import fleetInnova from '../assets/images/Fleet Brand/innova.webp';
+import fleetPremiumSuv from '../assets/images/Fleet Brand/premium suv.webp';
 import fleetTraveller from '../assets/images/Fleet Brand/tempo traveller.webp';
 import fleetUrbania from '../assets/images/Fleet Brand/Urbnia.webp';
 import fleetBus from '../assets/images/Fleet Brand/volvo bus.webp';
@@ -23,6 +24,7 @@ const VEHICLE_IMAGES = {
   "Ertiga": fleetErtiga,
   "Innova": fleetInnova,
   "Innova Crysta": fleetInnova,
+  "Premium SUV": fleetPremiumSuv,
   "Traveller 12": fleetTraveller,
   "Traveller 16": fleetTraveller,
   "Traveller 20": fleetTraveller,
