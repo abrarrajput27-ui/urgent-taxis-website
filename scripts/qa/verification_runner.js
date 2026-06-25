@@ -1,6 +1,6 @@
 // verification_runner.js
-import { getAllVehicleFares } from '../src/lib/pricingEngine.js';
-import { TRIP_TYPES } from '../src/lib/pricingRules.js';
+import { getAllVehicleFares } from '../../src/lib/pricingEngine.js';
+import { TRIP_TYPES } from '../../src/lib/pricingRules.js';
 
 const routes = [
   { name: 'Delhi Airport → Haldwani', distanceKm: 250, isAirport: true },

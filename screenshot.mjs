@@ -33,7 +33,12 @@ const __dirname = dirname(__filename);
     // 3. Fare Breakup Section
     await page.goto('http://localhost:4173/fare-results?pickup=Delhi&drop=Agra', { waitUntil: 'networkidle0' });
     await new Promise(r => setTimeout(r, 2000));
-    await page.screenshot({ path: join(__dirname, `${namePrefix}_3_fare_breakup.png`), fullPage: true });
+    // Desktop fare engine screenshot
+await page.screenshot({ path: join(__dirname, `${namePrefix}_fare_engine.png`), fullPage: true });
+// Desktop route fare screenshot (homepage)
+await page.goto('http://localhost:5174', { waitUntil: 'networkidle0' });
+await new Promise(r => setTimeout(r, 1000));
+await page.screenshot({ path: join(__dirname, `${namePrefix}_route_fare.png`), fullPage: true });
   };
 
   await takeScreenshots('desktop', false);

@@ -81,7 +81,7 @@ export const calculateFare = ({
   if (!vehicle) return null;
 
   // Enforce: if distanceKm is positive, it can never be an unknown route (TBD)
-  const actualIsUnknownRoute = distanceKm > 0 ? false : isUnknownRoute;
+  const actualIsUnknownRoute = distanceKm <= 0 || isUnknownRoute;
 
   let totalFare = 0;
   let distanceCharge = 0;
@@ -240,8 +240,13 @@ export const calculateFare = ({
 
   // Market Fare Logic: 18% higher than total fare
   const rawMarketFare = totalFare * 1.18;
-  const marketFare = Math.ceil(rawMarketFare / 50) * 50;
-  const youSave = marketFare - totalFare;
+  let marketFare = Math.ceil(rawMarketFare / 50) * 50;
+  let youSave = marketFare - totalFare;
+  if (actualIsUnknownRoute) {
+    totalFare = null;
+    marketFare = null;
+    youSave = null;
+  }
 
   return {
     category: vehicleCategory,
