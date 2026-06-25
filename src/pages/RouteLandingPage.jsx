@@ -18,6 +18,7 @@ import NearbyDestinations from '../components/route-blocks/NearbyDestinations';
 import RouteFaqs from '../components/route-blocks/RouteFaqs';
 import FareSection from '../components/route-blocks/FareSection';
 import TrustSection from '../components/route-blocks/TrustSection';
+import { getRouteFares, guessRouteDistance, formatFare } from '../utils/fareEngine';
 import RelatedRoutes from '../components/route-blocks/RelatedRoutes';
 import TouristPlanning from '../components/route-blocks/TouristPlanning';
 import CoveragePlanner from '../components/route-blocks/CoveragePlanner';
@@ -173,11 +174,15 @@ export default function RouteLandingPage() {
   }
 
   const getWhatsAppLink = () => {
+    const dynamicFares = getRouteFares(route);
+    const distance = route.distance || route.distanceKm || `${guessRouteDistance(route)} km`;
+    const price = route.sedanFare || route.price || (dynamicFares.isValid ? formatFare(dynamicFares.fares.sedan).replace('₹', '') : 'On Request');
+    
     const msg = `Hi, I would like to book a taxi. Here are the details I am interested in:
 
-*Route:* ${route.route || route.seoTitle} (${route.serviceType || route.type})
-*Starting Fare:* ₹${route.sedanFare || route.price}
-*Approx Distance:* ${route.distance || route.distanceKm}
+*Route:* ${route.route || route.seoTitle} (${route.serviceType || route.type || 'One Way'})
+*Starting Fare:* ${price !== 'On Request' ? '₹' : ''}${price}
+*Approx Distance:* ${distance}
 
 Please share the availability and exact quote.`;
     return `https://wa.me/918595066033?text=${encodeURIComponent(msg)}`;

@@ -1,15 +1,20 @@
 import { routes } from '../data/routes';
 import { Link } from 'react-router-dom';
 import { ArrowRight, MapPin } from 'lucide-react';
+import { getRouteFares, guessRouteDistance, formatFare } from '../utils/fareEngine';
 
 export default function PopularRoutes({ hideViewAll = false }) {
   const getRouteWhatsAppLink = (route) => {
+    const distance = route.distance || `${guessRouteDistance(route)} km`;
+    const fares = getRouteFares(route);
+    const price = route.price || (fares.isValid ? fares.fares.sedan : 'On Request');
+    
     const msg = `Hi, I would like to book a taxi. Here are the details I am interested in:
 
-*Route:* ${route.route} (${route.type})
-*Vehicle:* ${route.vehicle}
-*Starting Fare:* ₹${route.price}
-*Approx Distance:* ${route.distance}
+*Route:* ${route.route} (${route.type || 'One Way'})
+*Vehicle:* ${route.vehicle || 'Sedan'}
+*Starting Fare:* ${price !== 'On Request' ? '₹' : ''}${price}
+*Approx Distance:* ${distance}
 
 Please share the availability and exact quote.`;
 
@@ -36,7 +41,12 @@ Please share the availability and exact quote.`;
         <p className="text-[12px] text-slate-500 font-medium mb-6">Approx. distance shown from Delhi. Actual km may vary based on pickup location, drop location and selected route.</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {displayRoutes.map((route) => (
+          {displayRoutes.map((route) => {
+            const distance = route.distance || `${guessRouteDistance(route)} km`;
+            const fares = getRouteFares(route);
+            const price = route.price || (fares.isValid ? formatFare(fares.fares.sedan).replace('₹', '') : 'On Request');
+            
+            return (
             <div key={route.id} className="bg-white rounded-[20px] border border-slate-100 shadow-[0_4px_20px_rgb(0,0,0,0.04)] overflow-hidden group hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-2 transition-all duration-300 flex flex-col h-full">
               <div className="h-48 overflow-hidden relative bg-slate-50 flex items-center justify-center shrink-0">
                 <div className="absolute inset-0 bg-blue-900/5 group-hover:bg-transparent transition-all duration-300 z-20 pointer-events-none"></div>
@@ -50,14 +60,14 @@ Please share the availability and exact quote.`;
               </div>
               <div className="p-5 relative z-20 bg-white flex-1 flex flex-col">
                 <h3 className="font-black text-[18px] text-[#3b2b98] mb-1 leading-tight">{route.route.replace(' to ', ' → ')}</h3>
-                <p className="text-[13px] font-bold text-slate-500 mb-4">📍 Approx. {route.distance ? route.distance.replace('~', '') : '150 km'}</p>
+                <p className="text-[13px] font-bold text-slate-500 mb-4">📍 Approx. {distance.replace('~', '')}</p>
                 
                 <div className="mt-auto border-t border-slate-100 pt-4 flex items-center justify-between">
                   <div className="flex flex-col">
                     <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-0.5">{route.vehicle || 'Sedan'} from</span>
                     <div className="flex items-baseline gap-1.5">
                       {route.originalPrice && <span className="text-[13px] font-bold text-slate-400 line-through">₹{route.originalPrice}</span>}
-                      <span className="text-[18px] font-black text-slate-800 leading-none">₹{route.price}</span>
+                      <span className="text-[18px] font-black text-slate-800 leading-none">{price === 'On Request' ? price : `₹${price}`}</span>
                     </div>
                   </div>
                   <div className="flex gap-2">
@@ -85,7 +95,8 @@ Please share the availability and exact quote.`;
                 </div>
               </div>
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

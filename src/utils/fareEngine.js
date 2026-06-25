@@ -42,6 +42,22 @@ export const extractDistance = (distanceStr) => {
 };
 
 /**
+ * Attempts to extract a realistic distance from the route's textual content
+ */
+export const guessRouteDistance = (route) => {
+  if (route?.distanceKm) return extractDistance(route.distanceKm);
+  if (route?.distance) return extractDistance(route.distance);
+  
+  // Try to find it in FAQs or content
+  const textToSearch = JSON.stringify(route?.faqs || []) + " " + (route?.content?.about || "") + " " + (route?.routeHighlights || "");
+  const match = textToSearch.match(/(\d{2,4})\s*km/i);
+  if (match && match[1]) {
+    return parseInt(match[1], 10);
+  }
+  return 0;
+};
+
+/**
  * Formats currency safely
  */
 export const formatFare = (amount) => {
@@ -118,7 +134,7 @@ export const getRouteFares = (route, isRoundTrip = false, days = 1) => {
 
   // Calculate Distance
   const routeStr = route?.route || route?.slug || '';
-  const distanceKm = extractDistance(route?.distanceKm || route?.distance);
+  const distanceKm = guessRouteDistance(route);
   
   if (!distanceKm || distanceKm <= 0) {
     result.isValid = false;
