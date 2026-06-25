@@ -100,7 +100,7 @@ export default function Services({ gridMode = false }) {
         </div>
 
         {/* Carousel or Grid Area */}
-        <div className={`relative mx-auto ${gridMode ? '' : 'px-4 sm:px-14 group/carousel'}`}>
+        <div className={`relative mx-auto ${gridMode ? '' : 'sm:px-14 -mx-4 sm:mx-0 group/carousel'}`}>
           {/* Left Arrow (Desktop Only) */}
           {!gridMode && (
             <button 
@@ -126,7 +126,7 @@ export default function Services({ gridMode = false }) {
           {/* Container */}
           <div 
             ref={gridMode ? null : scrollContainerRef}
-            className={gridMode ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pb-8 pt-4 px-1" : "flex overflow-x-auto snap-x snap-mandatory gap-3 pb-8 pt-4 px-1 scroll-smooth [&::-webkit-scrollbar]:hidden"}
+            className={gridMode ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pb-8 pt-4 px-1" : "flex overflow-x-auto snap-x snap-mandatory gap-3 pb-8 pt-4 px-4 sm:px-0 scroll-smooth [&::-webkit-scrollbar]:hidden"}
             style={gridMode ? {} : { scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {services.map((service, index) => {

@@ -80,7 +80,7 @@ Please share the availability and exact quote.`;
         </div>
 
         {/* Carousel Area */}
-        <div className="relative group/carousel mx-auto px-4 sm:px-14">
+        <div className="relative group/carousel mx-auto sm:px-14 -mx-4 sm:mx-0">
           {/* Left Arrow */}
           <button 
             onClick={() => scroll('left')}
@@ -93,7 +93,7 @@ Please share the availability and exact quote.`;
           {/* Scroll Container */}
           <div 
             ref={scrollContainerRef}
-            className="flex overflow-x-auto gap-3 pt-6 pb-2 px-2 -mx-2 snap-x snap-mandatory hide-scrollbar items-stretch"
+            className="flex overflow-x-auto gap-3 pt-6 pb-4 px-4 sm:px-0 snap-x snap-mandatory hide-scrollbar items-stretch"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {fleetData.map((car) => (
@@ -102,15 +102,15 @@ Please share the availability and exact quote.`;
                 className="w-full sm:w-[320px] md:w-[calc(50%-12px)] lg:w-[calc(25%-18px)] shrink-0 snap-center bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] flex flex-col hover:shadow-[0_12px_40px_rgba(0,0,0,0.16)] hover:-translate-y-2 transition-all duration-300 group overflow-hidden h-full"
               >
                 {/* Image Section */}
-                <div className="w-full h-56 relative overflow-hidden shrink-0 bg-slate-50 flex items-center justify-center">
+                <div className="w-full h-[260px] sm:h-56 relative overflow-hidden shrink-0 bg-slate-50 flex items-center justify-center">
                   <div className="absolute inset-0 bg-blue-900/5 group-hover:bg-transparent transition-all duration-300 z-20 pointer-events-none"></div>
-                  <div className="w-full h-full relative z-10 flex items-center justify-center p-1">
+                  <div className="w-full h-full relative z-10 flex items-center justify-center p-2">
                       <img 
                         src={car.image} 
                         alt={car.name || car.categoryName} 
                         loading="lazy"
                         decoding="async"
-                        className={`w-full h-full object-contain object-center transition-transform duration-500 ${car.blend ? 'mix-blend-multiply' : ''}`}
+                        className={`w-full h-full object-contain object-center drop-shadow-xl transition-transform duration-500 hover:scale-105 ${car.blend ? 'mix-blend-multiply' : ''}`}
                         onError={(e) => {
                           e.target.style.display = 'none';
                           e.target.nextSibling.style.display = 'flex';
