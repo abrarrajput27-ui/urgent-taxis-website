@@ -36,7 +36,6 @@ export default function HomePage() {
         <PopularRoutes />
         <AirportHubs />
         <PopularCities />
-        <Testimonials />
         <GoogleReviews />
         <LatestBlogs />
       </main>

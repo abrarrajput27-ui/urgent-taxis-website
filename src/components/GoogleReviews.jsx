@@ -13,8 +13,8 @@ export default function GoogleReviews() {
   }, []);
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-12">
-      <div className="text-center mb-10">
+    <div className="w-full py-12 bg-slate-50">
+      <div className="text-center mb-10 px-4">
         <h2 className="text-3xl md:text-4xl font-black text-[#3b2b98] mb-4">Genuine Customer Reviews</h2>
         <p className="text-lg text-slate-600 font-medium">Read what our customers have to say about us</p>
       </div>
