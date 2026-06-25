@@ -104,7 +104,7 @@ Please share the availability and exact quote.`;
                 {/* Image Section */}
                 <div className="w-full h-56 relative overflow-hidden shrink-0 bg-slate-50 flex items-center justify-center">
                   <div className="absolute inset-0 bg-blue-900/5 group-hover:bg-transparent transition-all duration-300 z-20 pointer-events-none"></div>
-                  <div className="w-full h-full relative z-10 flex items-center justify-center p-6">
+                  <div className="w-full h-full relative z-10 flex items-center justify-center p-3">
                       <img 
                         src={car.image} 
                         alt={car.name || car.categoryName} 

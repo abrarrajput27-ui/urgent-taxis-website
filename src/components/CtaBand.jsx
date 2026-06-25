@@ -13,8 +13,8 @@ export default function CtaBand() {
             <div className="absolute left-0 bottom-0 w-64 h-64 bg-white rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>
           </div>
           
-          {/* Left Content with Overlapping Car */}
-          <div className="absolute -top-24 md:top-1/2 left-1/2 md:-left-4 -translate-x-1/2 md:translate-x-0 md:-translate-y-[65%] w-[310px] md:w-[500px] z-30 pointer-events-none">
+          {/* Right Content with Overlapping Car */}
+          <div className="absolute -top-24 md:top-1/2 left-1/2 md:left-auto md:-right-4 -translate-x-1/2 md:translate-x-0 md:-translate-y-[65%] w-[310px] md:w-[500px] z-30 pointer-events-none">
             <img 
               src={vehicleImages.heroCar} 
               alt="Premium Taxi" 
@@ -25,14 +25,14 @@ export default function CtaBand() {
             />
           </div>
 
-          <div className="flex flex-col md:flex-row items-center justify-between w-full relative z-20">
+          <div className="flex flex-col md:flex-row items-center justify-start md:gap-8 w-full relative z-20">
             {/* Text Content */}
-            <div className="text-center md:text-left md:pl-[500px] mb-5 md:mb-0 w-full md:w-auto">
+            <div className="text-center md:text-left mb-5 md:mb-0 w-full md:w-auto">
               <h2 className="text-xl md:text-[28px] font-black text-white mb-1 leading-tight tracking-tight">Book your ride in just 2 clicks</h2>
               <p className="text-blue-100 text-[13px] md:text-[14px] font-medium">Get instant confirmation via WhatsApp</p>
             </div>
             
-            {/* Right Actions */}
+            {/* Left Actions */}
             <div className="flex flex-row gap-2 sm:gap-3 w-full md:w-auto justify-center">
               <a 
                 href="tel:7310651940"
