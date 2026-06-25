@@ -80,7 +80,7 @@ Please share the availability and exact quote.`;
         </div>
 
         {/* Carousel Area */}
-        <div className="relative group/carousel mx-auto sm:px-14 -mx-4 sm:mx-0">
+        <div className="relative group/carousel mx-auto px-4 sm:px-14">
           {/* Left Arrow */}
           <button 
             onClick={() => scroll('left')}
@@ -93,13 +93,13 @@ Please share the availability and exact quote.`;
           {/* Scroll Container */}
           <div 
             ref={scrollContainerRef}
-            className="flex overflow-x-auto gap-3 pt-6 pb-4 px-4 sm:px-0 snap-x snap-mandatory hide-scrollbar items-stretch"
+            className="flex overflow-x-auto gap-4 pt-6 pb-8 px-1 snap-x snap-mandatory hide-scrollbar items-stretch"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {fleetData.map((car) => (
               <div 
                 key={car.id} 
-                className="w-full sm:w-[320px] md:w-[calc(50%-12px)] lg:w-[calc(25%-18px)] shrink-0 snap-center bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] flex flex-col hover:shadow-[0_12px_40px_rgba(0,0,0,0.16)] hover:-translate-y-2 transition-all duration-300 group overflow-hidden h-full"
+                className="w-[calc(100vw-40px)] sm:w-[320px] md:w-[calc(50%-12px)] lg:w-[calc(25%-18px)] shrink-0 snap-center bg-white rounded-2xl shadow-[0_8px_25px_rgba(0,0,0,0.2)] flex flex-col hover:shadow-[0_12px_40px_rgba(0,0,0,0.3)] hover:-translate-y-2 transition-all duration-300 group overflow-hidden h-full"
               >
                 {/* Image Section */}
                 <div className="w-full h-[260px] sm:h-56 relative overflow-hidden shrink-0 bg-slate-50 flex items-center justify-center">

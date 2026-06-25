@@ -100,7 +100,7 @@ export default function Services({ gridMode = false }) {
         </div>
 
         {/* Carousel or Grid Area */}
-        <div className={`relative mx-auto ${gridMode ? '' : 'sm:px-14 -mx-4 sm:mx-0 group/carousel'}`}>
+        <div className={`relative mx-auto ${gridMode ? '' : 'px-4 sm:px-14 group/carousel'}`}>
           {/* Left Arrow (Desktop Only) */}
           {!gridMode && (
             <button 
@@ -126,14 +126,14 @@ export default function Services({ gridMode = false }) {
           {/* Container */}
           <div 
             ref={gridMode ? null : scrollContainerRef}
-            className={gridMode ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pb-8 pt-4 px-1" : "flex overflow-x-auto snap-x snap-mandatory gap-3 pb-8 pt-4 px-4 sm:px-0 scroll-smooth [&::-webkit-scrollbar]:hidden"}
+            className={gridMode ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pb-8 pt-4 px-1" : "flex overflow-x-auto snap-x snap-mandatory gap-4 pb-8 pt-4 px-1 scroll-smooth [&::-webkit-scrollbar]:hidden"}
             style={gridMode ? {} : { scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {services.map((service, index) => {
               return (
                 <div 
                   key={index} 
-                  className={gridMode ? "w-full bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] flex flex-col hover:shadow-[0_12px_40px_rgba(0,0,0,0.16)] hover:-translate-y-2 transition-all duration-300 group overflow-hidden" : "w-full sm:w-[320px] md:w-[calc(50%-12px)] lg:w-[calc(25%-18px)] shrink-0 snap-center bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] flex flex-col hover:shadow-[0_12px_40px_rgba(0,0,0,0.16)] hover:-translate-y-2 transition-all duration-300 group overflow-hidden mx-auto"}
+                  className={gridMode ? "w-full bg-white rounded-2xl shadow-[0_8px_25px_rgba(0,0,0,0.2)] flex flex-col hover:shadow-[0_12px_40px_rgba(0,0,0,0.3)] hover:-translate-y-2 transition-all duration-300 group overflow-hidden" : "w-[calc(100vw-40px)] sm:w-[320px] md:w-[calc(50%-12px)] lg:w-[calc(25%-18px)] shrink-0 snap-center bg-white rounded-2xl shadow-[0_8px_25px_rgba(0,0,0,0.2)] flex flex-col hover:shadow-[0_12px_40px_rgba(0,0,0,0.3)] hover:-translate-y-2 transition-all duration-300 group overflow-hidden mx-auto"}
                 >
                   <Link to={`/service/${getServiceSlug(service.title)}`} className="w-full h-48 relative overflow-hidden shrink-0 block">
                     <div className="absolute inset-0 bg-blue-900/5 group-hover:bg-transparent transition-all duration-300 z-10"></div>
