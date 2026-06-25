@@ -5,7 +5,7 @@ export default function CtaBand() {
   return (
     <section className="pt-8 pb-12 bg-white relative">
       <div className="w-full px-4 sm:px-8 lg:px-12 mx-auto relative z-10">
-        <div className="bg-[#1746a2] bg-gradient-to-r from-[#1746a2] to-[#0c3182] rounded-xl px-6 pt-[120px] pb-6 md:px-8 md:py-8 flex flex-col md:flex-row items-center justify-between relative shadow-2xl mt-20 md:mt-12">
+        <div className="bg-[#1746a2] bg-gradient-to-r from-[#1746a2] to-[#0c3182] rounded-xl px-4 sm:px-6 pt-[90px] pb-6 md:px-8 md:py-8 flex flex-col md:flex-row items-center justify-between relative shadow-2xl mt-24 md:mt-12">
           
           {/* Background Pattern */}
           <div className="absolute inset-0 opacity-10 pointer-events-none z-0 overflow-hidden rounded-xl">
@@ -14,7 +14,7 @@ export default function CtaBand() {
           </div>
           
           {/* Right Content with Overlapping Car */}
-          <div className="absolute -top-24 md:top-1/2 left-1/2 md:left-auto md:-right-4 -translate-x-1/2 md:translate-x-0 md:-translate-y-[65%] w-[310px] md:w-[500px] z-30 pointer-events-none">
+          <div className="absolute -top-28 md:top-1/2 left-1/2 md:left-auto md:-right-8 -translate-x-1/2 md:translate-x-0 md:-translate-y-[60%] w-[350px] md:w-[580px] z-30 pointer-events-none">
             <img 
               src={vehicleImages.heroCar} 
               alt="Premium Taxi" 
