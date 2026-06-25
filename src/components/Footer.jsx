@@ -123,18 +123,34 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Noida International Airport Taxi Routes */}
+        {/* Airport Routes Section */}
         <div className="border-t border-slate-800/80 pt-8 pb-6 mt-4">
-          <h4 className="text-white font-bold text-[18px] mb-6 tracking-wide">Noida International Airport Taxi Routes</h4>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-4 gap-x-6 text-[14px] font-medium">
-            <Link to="/noida-international-airport-to-delhi-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> Jewar to Delhi</Link>
-            <Link to="/noida-international-airport-to-noida-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> Jewar to Noida</Link>
-            <Link to="/noida-international-airport-to-ghaziabad-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> Jewar to Ghaziabad</Link>
-            <Link to="/noida-international-airport-to-gurugram-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> Jewar to Gurugram</Link>
-            <Link to="/noida-international-airport-to-haldwani-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> Jewar to Haldwani</Link>
-            <Link to="/noida-international-airport-to-nainital-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> Jewar to Nainital</Link>
-            <Link to="/noida-international-airport-to-haridwar-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> Jewar to Haridwar</Link>
-            <Link to="/noida-international-airport-to-rishikesh-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> Jewar to Rishikesh</Link>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Jewar Airport Routes */}
+            <div>
+              <h4 className="text-white font-bold text-[18px] mb-6 tracking-wide">Jewar Airport Routes</h4>
+              <div className="grid grid-cols-2 gap-y-4 gap-x-6 text-[14px] font-medium">
+                <Link to="/noida-international-airport-to-delhi-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> Jewar to Delhi</Link>
+                <Link to="/noida-international-airport-to-agra-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> Jewar to Agra</Link>
+                <Link to="/noida-international-airport-to-haldwani-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> Jewar to Haldwani</Link>
+                <Link to="/noida-international-airport-to-nainital-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> Jewar to Nainital</Link>
+                <Link to="/noida-international-airport-to-haridwar-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> Jewar to Haridwar</Link>
+                <Link to="/noida-international-airport-to-rishikesh-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> Jewar to Rishikesh</Link>
+              </div>
+            </div>
+
+            {/* Delhi Airport Routes */}
+            <div>
+              <h4 className="text-white font-bold text-[18px] mb-6 tracking-wide">Delhi Airport Routes</h4>
+              <div className="grid grid-cols-2 gap-y-4 gap-x-6 text-[14px] font-medium">
+                <Link to="/delhi-airport-to-chandigarh-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> IGI to Chandigarh</Link>
+                <Link to="/delhi-airport-to-agra-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> IGI to Agra</Link>
+                <Link to="/delhi-airport-to-haldwani-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> IGI to Haldwani</Link>
+                <Link to="/delhi-airport-to-nainital-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> IGI to Nainital</Link>
+                <Link to="/delhi-airport-to-dehradun-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> IGI to Dehradun</Link>
+                <Link to="/delhi-airport-to-rishikesh-taxi" className="hover:text-white transition-colors flex items-center"><ChevronRight className="w-4 h-4 mr-2 opacity-50" /> IGI to Rishikesh</Link>
+              </div>
+            </div>
           </div>
         </div>
 

@@ -224,18 +224,40 @@ export default function ServiceLandingPage() {
           <h2 className="text-2xl font-black text-[#3b2b98] mb-6">Popular Taxi Routes</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             {service.slug === 'airport-transfer' 
-              ? routes.filter(r => r.fromCity === 'Noida International Airport').slice(0, 8).map((r, index) => (
-                  <Link 
-                    key={index}
-                    to={`/${r.slug}`} 
-                    className="group bg-slate-50 p-4 rounded-xl border border-slate-100 hover:border-blue-400 hover:shadow-md transition-all flex items-center justify-between"
-                  >
-                    <span className="font-bold text-slate-700 group-hover:text-blue-600 transition-colors text-sm">
-                      {r.route || r.seoTitle}
-                    </span>
-                    <ArrowRight size={16} className="text-slate-400 group-hover:text-blue-600 shrink-0" />
+              ? <>
+                  {routes.filter(r => r.fromCity === 'Noida International Airport').slice(0, 4).map((r, index) => (
+                    <Link 
+                      key={`jewar-${index}`}
+                      to={`/${r.slug}`} 
+                      className="group bg-slate-50 p-4 rounded-xl border border-slate-100 hover:border-blue-400 hover:shadow-md transition-all flex items-center justify-between"
+                    >
+                      <span className="font-bold text-slate-700 group-hover:text-blue-600 transition-colors text-sm">
+                        {r.route || r.seoTitle}
+                      </span>
+                      <ArrowRight size={16} className="text-slate-400 group-hover:text-blue-600 shrink-0" />
+                    </Link>
+                  ))}
+                  {routes.filter(r => r.fromCity === 'Delhi Airport').slice(0, 4).map((r, index) => (
+                    <Link 
+                      key={`delhi-${index}`}
+                      to={`/${r.slug}`} 
+                      className="group bg-slate-50 p-4 rounded-xl border border-slate-100 hover:border-blue-400 hover:shadow-md transition-all flex items-center justify-between"
+                    >
+                      <span className="font-bold text-slate-700 group-hover:text-blue-600 transition-colors text-sm">
+                        {r.route || r.seoTitle}
+                      </span>
+                      <ArrowRight size={16} className="text-slate-400 group-hover:text-blue-600 shrink-0" />
+                    </Link>
+                  ))}
+                  <Link to="/city/delhi-airport" className="group bg-blue-50 p-4 rounded-xl border border-blue-200 hover:border-blue-500 hover:shadow-md transition-all flex items-center justify-between md:col-span-2">
+                    <span className="font-bold text-blue-800 text-sm">View All Delhi Airport Taxi Routes</span>
+                    <ArrowRight size={16} className="text-blue-600 shrink-0" />
                   </Link>
-                ))
+                  <Link to="/city/noida-international-airport" className="group bg-green-50 p-4 rounded-xl border border-green-200 hover:border-green-500 hover:shadow-md transition-all flex items-center justify-between md:col-span-2">
+                    <span className="font-bold text-green-800 text-sm">View All Jewar Airport Taxi Routes</span>
+                    <ArrowRight size={16} className="text-green-600 shrink-0" />
+                  </Link>
+                </>
               : routes.slice(0, 8).map((r, index) => (
                   <Link 
                     key={index}

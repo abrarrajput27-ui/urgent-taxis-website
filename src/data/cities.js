@@ -887,5 +887,77 @@ export const cities = [
       }
     ],
     "relatedCities": []
+  },
+    {
+    "id": 901,
+    "cityName": "Noida International Airport",
+    "state": "Uttar Pradesh",
+    "citySlug": "noida-international-airport",
+    "image": "/images/routes/jewar-airport.webp",
+    "seoTitle": "Taxi Service in Noida International Airport (Jewar) | Urgent Taxis",
+    "seoDescription": "Book reliable taxi service from Noida International Airport (Jewar). Outstation cabs, airport drops, and pickups to Delhi NCR, UP, and Uttarakhand.",
+    "h1": "Taxi Service at Noida International Airport (Jewar)",
+    "subtitle": "Book reliable outstation taxi and airport transfers from Jewar Airport.",
+    "mainServices": [
+      "Airport Transfer",
+      "Outstation One Way Taxi",
+      "Outstation Round Trip Taxi",
+      "Corporate Taxi Service"
+    ],
+    "popularRoutes": [
+      "Noida International Airport to Delhi",
+      "Noida International Airport to Noida",
+      "Noida International Airport to Greater Noida",
+      "Noida International Airport to Gurugram",
+      "Noida International Airport to Haldwani",
+      "Noida International Airport to Agra"
+    ],
+    "about": "Welcome to Urgent Taxis at Noida International Airport (Jewar). As the newest and most prominent aviation hub in North India, Jewar Airport connects you to major cities across Delhi NCR, Uttar Pradesh, Uttarakhand, and beyond. We provide dedicated, 24/7 airport transfer services ensuring you never miss a flight and always reach your destination comfortably. Whether you need a quick drop to Greater Noida or an outstation trip to Agra or Nainital, our verified drivers and premium fleet are at your service.",
+    "faqs": [
+      {
+        "question": "How do I book a taxi from Noida International Airport?",
+        "answer": "You can easily book a cab by calling our 24/7 helpline or sending a quick WhatsApp message. We provide instant confirmations."
+      },
+      {
+        "question": "Are your taxis available 24/7 at Jewar Airport?",
+        "answer": "Yes, our airport taxi services operate 24/7 to accommodate all flight schedules, including late-night arrivals and early-morning departures."
+      }
+    ]
+  },
+  {
+    "id": 902,
+    "cityName": "Delhi Airport",
+    "state": "Delhi",
+    "citySlug": "delhi-airport",
+    "image": "/images/routes/default-airport-transfer.webp",
+    "seoTitle": "Taxi Service at Delhi Airport (IGI) | Urgent Taxis",
+    "seoDescription": "Book reliable taxi service from Indira Gandhi International (IGI) Airport Delhi. Premium cabs, airport transfers, and outstation taxis.",
+    "h1": "Taxi Service at Delhi Airport (IGI)",
+    "subtitle": "Book reliable outstation taxi and airport transfers from Delhi Airport.",
+    "mainServices": [
+      "Airport Transfer",
+      "Outstation One Way Taxi",
+      "Outstation Round Trip Taxi",
+      "Corporate Taxi Service"
+    ],
+    "popularRoutes": [
+      "Delhi Airport to Chandigarh",
+      "Delhi Airport to Jaipur",
+      "Delhi Airport to Haldwani",
+      "Delhi Airport to Dehradun",
+      "Delhi Airport to Agra",
+      "Delhi Airport to Haridwar"
+    ],
+    "about": "Urgent Taxis provides premium and hassle-free airport transfer services at Indira Gandhi International (IGI) Airport, Delhi. Navigating through India's busiest airport can be stressful, which is why we offer reliable pickups, comfortable drops, and outstation connections right from the terminal. Whether you need a quick ride into the city or a long-distance taxi to Punjab, Rajasthan, or Uttarakhand, our extensive fleet of Sedans, SUVs, and Tempo Travellers is ready for you.",
+    "faqs": [
+      {
+        "question": "Do you offer pickups from T1, T2, and T3 at Delhi Airport?",
+        "answer": "Yes, we provide seamless pickups and drops across all terminals (T1, T2, and T3) at IGI Airport."
+      },
+      {
+        "question": "Can I book a taxi from Delhi Airport to an outstation city?",
+        "answer": "Absolutely! We specialize in outstation trips directly from Delhi Airport to cities like Jaipur, Agra, Chandigarh, and Dehradun."
+      }
+    ]
   }
 ];

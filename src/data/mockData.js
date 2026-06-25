@@ -1,9 +1,9 @@
 
-import heroCarImg from '../assets/images/hero-car.webp';
+import heroCarImg from '../assets/images/hero-car.jpg';
 import hatchbackImg from '../assets/images/Hatchback.webp';
 import sedanImg from '../assets/images/sedan.webp';
 import ertigaImg from '../assets/images/MUV.webp';
-import innovaImg from '../assets/images/Innova Hycross.jpg';
+import innovaImg from '../assets/images/with logo innova.png';
 import travellerImg from '../assets/images/car-traveller.webp';
 import urbaniaImg from '../assets/images/Urbania.webp';
 import busImg from '../assets/images/volvo-bus.jpg';

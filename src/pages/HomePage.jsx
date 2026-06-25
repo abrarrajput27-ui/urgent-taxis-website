@@ -10,6 +10,7 @@ import Footer from '../components/Footer';
 import SEOHead from '../components/SEOHead';
 import { createLocalBusinessSchema } from '../utils/seoHelpers';
 import PopularCities from '../components/PopularCities';
+import AirportHubs from '../components/AirportHubs';
 
 
 import LatestBlogs from '../components/blog/LatestBlogs';
@@ -32,6 +33,7 @@ export default function HomePage() {
         <Services />
         <Fleet />
         <PopularRoutes />
+        <AirportHubs />
         <PopularCities />
         <Testimonials />
         {/* GoogleReviews removed from HomePage */}
