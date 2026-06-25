@@ -5,6 +5,7 @@ import Services from '../components/Services';
 import Fleet from '../components/Fleet';
 import PopularRoutes from '../components/PopularRoutes';
 import Testimonials from '../components/Testimonials';
+import GoogleReviews from '../components/GoogleReviews';
 
 import Footer from '../components/Footer';
 import SEOHead from '../components/SEOHead';
@@ -36,7 +37,7 @@ export default function HomePage() {
         <AirportHubs />
         <PopularCities />
         <Testimonials />
-        {/* GoogleReviews removed from HomePage */}
+        <GoogleReviews />
         <LatestBlogs />
       </main>
       <Footer />
